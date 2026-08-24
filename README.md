@@ -28,4 +28,4 @@ Please cite this repository if you use the data or the model.
 
 ## License
 
-Add your license here before publishing.
+CC BY-NC 4.0
