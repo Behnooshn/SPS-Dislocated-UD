@@ -1,0 +1,946 @@
+# sent_id = test-1
+# text = بچه رو پیرهنشو دکمشو بدوز
+# gold_has_dislocated = Yes
+# dislocated_head = بچه
+1	بچه	بچه	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	پیرهن	پیرهن	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	دکم	دکم	NOUN	N_SING	Number=Sing	9	dep	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	و	و	PART	PART	_	7	case	_	_
+9	بدوز	بدوز	VERB	V	_	0	root	_	_
+
+# sent_id = test-2
+# text = دکمه پیرهن بچه رو بدوز
+# gold_has_dislocated = No
+1	دکمه	دکمه	NOUN	N_SING	Number=Sing	5	dep	_	_
+2	پیرهن	پیرهن	NOUN	N_SING	Number=Sing	5	dep	_	_
+3	بچه	بچه	NOUN	N_SING	Number=Sing	5	dep	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	بدوز	بدوز	VERB	V	_	0	root	_	_
+
+# sent_id = test-3
+# text = ضاربو چاقو رو ازش گرفتند.
+# gold_has_dislocated = Yes
+# dislocated_head = ضارب
+1	ضارب	ضارب	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	چاقو	چاقو	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	ش	ش	PRON	PRO	PronType=Prs	5	nmod:poss	_	_
+7	گرفتند	گرفتند	VERB	V	_	0	root	_	_
+8	.	.	PUNCT	DELM	_	7	punct	_	_
+
+# sent_id = test-4
+# text = چاقوی ضاربو گرفتن ازش.
+# gold_has_dislocated = Yes
+# dislocated_head = ضارب
+1	چاقوی	چاقوی	NOUN	N_SING	Number=Sing	4	dep	_	_
+2	ضارب	ضارب	NOUN	N_SING	Number=Sing	4	dislocated	_	_
+3	و	و	PART	PART	_	2	case	_	_
+4	گرفتن	گرفتن	VERB	V	_	0	root	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	ش	ش	PRON	PRO	PronType=Prs	5	nmod:poss	_	_
+7	.	.	PUNCT	DELM	_	4	punct	_	_
+
+# sent_id = test-5
+# text = چاقوی ضاربو گرفتن
+# gold_has_dislocated = No
+1	چاقوی	چاقوی	NOUN	N_SING	Number=Sing	4	dep	_	_
+2	ضارب	ضارب	NOUN	N_SING	Number=Sing	4	dep	_	_
+3	و	و	PART	PART	_	2	case	_	_
+4	گرفتن	گرفتن	VERB	V	_	0	root	_	_
+
+# sent_id = test-6
+# text = کفشای ما جنسشون همه از چرمه
+# gold_has_dislocated = Yes
+# dislocated_head = کفشای
+1	کفشای	کفشای	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	ما	ما	PRON	PRO	PronType=Prs	7	dep	_	_
+3	جنس	جنس	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	شون	شون	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	همه	همه	DET	DET	_	6	det	_	_
+6	از	از	ADP	P	_	7	case	_	_
+7	چرمه	چرمه	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = test-7
+# text = همه کفشای ما جنسشون از چرمه
+# gold_has_dislocated = Yes
+# dislocated_head = کفشای
+1	همه	همه	DET	DET	_	2	det	_	_
+2	کفشای	کفشای	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+3	ما	ما	PRON	PRO	PronType=Prs	7	dep	_	_
+4	جنس	جنس	NOUN	N_SING	Number=Sing	7	dep	_	_
+5	شون	شون	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	از	از	ADP	P	_	7	case	_	_
+7	چرمه	چرمه	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = test-8
+# text = دکتر کریمی رو مقالشو خوندم.
+# gold_has_dislocated = Yes
+# dislocated_head = دکتر
+1	دکتر	دکتر	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	کریمی	کریمی	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	رو	رو	PART	PART	_	2	case	_	_
+4	مقال	مقال	NOUN	N_SING	Number=Sing	7	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	و	و	PART	PART	_	5	case	_	_
+7	خوندم	خوندم	VERB	V	_	0	root	_	_
+8	.	.	PUNCT	DELM	_	7	punct	_	_
+
+# sent_id = test-9
+# text = مقاله دکتر کریمی رو خوندم
+# gold_has_dislocated = No
+1	مقاله	مقاله	NOUN	N_SING	Number=Sing	5	dep	_	_
+2	دکتر	دکتر	NOUN	N_SING	Number=Sing	5	dep	_	_
+3	کریمی	کریمی	NOUN	N_SING	Number=Sing	5	dep	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	خوندم	خوندم	VERB	V	_	0	root	_	_
+
+# sent_id = test-10
+# text = در ضمن افرادی رو که این بخشنامه شامل حالشون میشه، در ورود به دانشگاه ازشون تعهد گرفتن
+# gold_has_dislocated = Yes
+# dislocated_head = افرادی
+1	در	در	ADP	P	_	2	case	_	_
+2	ضمن	ضمن	NOUN	N_SING	Number=Sing	20	dep	_	_
+3	افرادی	افرادی	NOUN	N_SING	Number=Sing	20	dislocated	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	که	که	NOUN	N_SING	Number=Sing	20	dep	_	_
+6	این	این	DET	DET	PronType=Dem	7	det	_	_
+7	بخشنامه	بخشنامه	NOUN	N_SING	Number=Sing	20	dep	_	_
+8	شامل	شامل	NOUN	N_SING	Number=Sing	20	dep	_	_
+9	حال	حال	NOUN	N_SING	Number=Sing	20	dep	_	_
+10	شون	شون	PRON	PRO	PronType=Prs	9	nmod:poss	_	_
+11	میشه	میشه	VERB	V	_	20	dep	_	_
+12	،	،	PUNCT	DELM	_	20	punct	_	_
+13	در	در	ADP	P	_	14	case	_	_
+14	ورود	ورود	NOUN	N_SING	Number=Sing	20	dep	_	_
+15	به	به	ADP	P	_	16	case	_	_
+16	دانشگاه	دانشگاه	NOUN	N_SING	Number=Sing	20	dep	_	_
+17	از	از	ADP	P	_	18	case	_	_
+18	شون	شون	PRON	PRO	PronType=Prs	17	nmod:poss	_	_
+19	تعهد	تعهد	NOUN	N_SING	Number=Sing	20	dep	_	_
+20	گرفتن	گرفتن	VERB	V	_	0	root	_	_
+
+# sent_id = test-11
+# text = فرزاد خانومش کلیه ش از کار افتاده
+# gold_has_dislocated = Yes
+# dislocated_head = فرزاد
+1	فرزاد	فرزاد	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	خانوم	خانوم	NOUN	N_SING	Number=Sing	8	dep	_	_
+3	ش	ش	PRON	PRO	PronType=Prs	2	nmod:poss	_	_
+4	کلیه	کلیه	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	از	از	ADP	P	_	7	case	_	_
+7	کار	کار	NOUN	N_SING	Number=Sing	8	dep	_	_
+8	افتاده	افتاده	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = test-12
+# text = خانوم فرزاد کلیه ش از کار افتاده
+# gold_has_dislocated = No
+1	خانوم	خانوم	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	فرزاد	فرزاد	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	کلیه	کلیه	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	کار	کار	NOUN	N_SING	Number=Sing	7	dep	_	_
+7	افتاده	افتاده	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = test-13
+# text = کلیه خانوم فرزاد از کار افتاده
+# gold_has_dislocated = No
+1	کلیه	کلیه	NOUN	N_SING	Number=Sing	6	dep	_	_
+2	خانوم	خانوم	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	فرزاد	فرزاد	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	کار	کار	NOUN	N_SING	Number=Sing	6	dep	_	_
+6	افتاده	افتاده	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = test-14
+# text = میز عسلی کاملا نو رو یه ماهه خریدمش
+# gold_has_dislocated = Yes
+# dislocated_head = میز
+1	میز	میز	VERB	V	_	8	dislocated	_	_
+2	عسلی	عسلی	NOUN	N_SING	Number=Sing	8	dep	_	_
+3	کاملا	کاملا	NOUN	N_SING	Number=Sing	8	dep	_	_
+4	نو	نو	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	رو	رو	PART	PART	_	4	case	_	_
+6	یه	یه	DET	DET	_	7	det	_	_
+7	ماهه	ماهه	NOUN	N_SING	Number=Sing	8	dep	_	_
+8	خریدم	خریدم	VERB	V	_	0	root	_	_
+9	ش	ش	PRON	PRO	PronType=Prs	8	obj	_	_
+
+# sent_id = test-15
+# text = یه ماهه خریدم میز عسلی کاملا نو رو
+# gold_has_dislocated = No
+1	یه	یه	DET	DET	_	2	det	_	_
+2	ماهه	ماهه	NOUN	N_SING	Number=Sing	4	dep	_	_
+3	خریدم	خریدم	VERB	V	_	4	dep	_	_
+4	میز	میز	VERB	V	_	0	root	_	_
+5	عسلی	عسلی	NOUN	N_SING	Number=Sing	4	dep	_	_
+6	کاملا	کاملا	NOUN	N_SING	Number=Sing	4	dep	_	_
+7	نو	نو	NOUN	N_SING	Number=Sing	4	dep	_	_
+8	رو	رو	PART	PART	_	7	case	_	_
+
+# sent_id = test-16
+# text = مهردادو باهاش رقصیدم
+# gold_has_dislocated = Yes
+# dislocated_head = مهرداد
+1	مهرداد	مهرداد	NOUN	N_SING	Number=Sing	5	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	با	با	ADP	P	_	4	case	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	رقصیدم	رقصیدم	VERB	V	_	0	root	_	_
+
+# sent_id = test-17
+# text = با مهرداد رقصیدم
+# gold_has_dislocated = No
+1	با	با	ADP	P	_	2	case	_	_
+2	مهرداد	مهرداد	NOUN	N_SING	Number=Sing	3	dep	_	_
+3	رقصیدم	رقصیدم	VERB	V	_	0	root	_	_
+
+# sent_id = test-18
+# text = ایرجیو پول بهش بده
+# gold_has_dislocated = Yes
+# dislocated_head = ایرجی
+1	ایرجی	ایرجی	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	پول	پول	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	بده	بده	VERB	V	_	0	root	_	_
+
+# sent_id = test-19
+# text = ایرجیو بهش پول بده
+# gold_has_dislocated = Yes
+# dislocated_head = ایرجی
+1	ایرجی	ایرجی	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	پول	پول	NOUN	N_SING	Number=Sing	6	dep	_	_
+6	بده	بده	VERB	V	_	0	root	_	_
+
+# sent_id = test-20
+# text = به ایرجی پول بده
+# gold_has_dislocated = No
+1	به	به	ADP	P	_	2	case	_	_
+2	ایرجی	ایرجی	NOUN	N_SING	Number=Sing	4	dep	_	_
+3	پول	پول	NOUN	N_SING	Number=Sing	4	dep	_	_
+4	بده	بده	VERB	V	_	0	root	_	_
+
+# sent_id = test-21
+# text = به ایرجی پولشو بده
+# gold_has_dislocated = No
+1	به	به	ADP	P	_	2	case	_	_
+2	ایرجی	ایرجی	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	پول	پول	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	بده	بده	VERB	V	_	0	root	_	_
+
+# sent_id = test-22
+# text = کتابو سامان اونو فرستاد
+# gold_has_dislocated = Yes
+# dislocated_head = کتاب
+1	کتاب	کتاب	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	سامان	سامان	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	اون	اون	DET	DET	PronType=Dem	5	det	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	فرستاد	فرستاد	VERB	V	_	0	root	_	_
+
+# sent_id = test-23
+# text = کتابو سامان فرستاد
+# gold_has_dislocated = No
+1	کتاب	کتاب	NOUN	N_SING	Number=Sing	4	dep	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	سامان	سامان	NOUN	N_SING	Number=Sing	4	dep	_	_
+4	فرستاد	فرستاد	VERB	V	_	0	root	_	_
+
+# sent_id = test-24
+# text = سامان کتابو فرستاد
+# gold_has_dislocated = No
+1	سامان	سامان	NOUN	N_SING	Number=Sing	4	dep	_	_
+2	کتاب	کتاب	NOUN	N_SING	Number=Sing	4	dep	_	_
+3	و	و	PART	PART	_	2	case	_	_
+4	فرستاد	فرستاد	VERB	V	_	0	root	_	_
+
+# sent_id = test-25
+# text = گرما رو، امید ازش متنفره
+# gold_has_dislocated = Yes
+# dislocated_head = گرما
+1	گرما	گرما	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	،	،	PUNCT	DELM	_	7	punct	_	_
+4	امید	امید	NOUN	N_SING	Number=Sing	7	dep	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	ش	ش	PRON	PRO	PronType=Prs	5	nmod:poss	_	_
+7	متنفره	متنفره	VERB	V	_	0	root	_	_
+
+# sent_id = test-26
+# text = امید از گرما متنفره
+# gold_has_dislocated = No
+1	امید	امید	NOUN	N_SING	Number=Sing	4	dep	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	گرما	گرما	NOUN	N_SING	Number=Sing	4	dep	_	_
+4	متنفره	متنفره	VERB	V	_	0	root	_	_
+
+# sent_id = test-27
+# text = پنکه رو سامان اتاقو باهاش خنک کرد
+# gold_has_dislocated = Yes
+# dislocated_head = پنکه
+1	پنکه	پنکه	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	سامان	سامان	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	اتاق	اتاق	NOUN	N_SING	Number=Sing	9	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	با	با	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	خنک	خنک	NOUN	N_SING	Number=Sing	9	dep	_	_
+9	کرد	کرد	VERB	V	_	0	root	_	_
+
+# sent_id = test-28
+# text = سامان اتاقو با پنکه خنک کرد
+# gold_has_dislocated = No
+1	سامان	سامان	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	اتاق	اتاق	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	و	و	PART	PART	_	2	case	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	پنکه	پنکه	NOUN	N_SING	Number=Sing	7	dep	_	_
+6	خنک	خنک	NOUN	N_SING	Number=Sing	7	dep	_	_
+7	کرد	کرد	VERB	V	_	0	root	_	_
+
+# sent_id = test-29
+# text = استادو ازش برگه رو گرفتم
+# gold_has_dislocated = Yes
+# dislocated_head = استاد
+1	استاد	استاد	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	از	از	ADP	P	_	4	case	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	برگه	برگه	NOUN	N_SING	Number=Sing	7	dep	_	_
+6	رو	رو	PART	PART	_	5	case	_	_
+7	گرفتم	گرفتم	VERB	V	_	0	root	_	_
+
+# sent_id = test-30
+# text = از استاد برگه رو گرفتم
+# gold_has_dislocated = No
+1	از	از	ADP	P	_	2	case	_	_
+2	استاد	استاد	NOUN	N_SING	Number=Sing	5	dep	_	_
+3	برگه	برگه	NOUN	N_SING	Number=Sing	5	dep	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	گرفتم	گرفتم	VERB	V	_	0	root	_	_
+
+# sent_id = test-31
+# text = پارک محل رو هر روز درش ورزش می کنیم.
+# gold_has_dislocated = Yes
+# dislocated_head = پارک
+1	پارک	پارک	NOUN	N_SING	Number=Sing	10	dislocated	_	_
+2	محل	محل	NOUN	N_SING	Number=Sing	10	dep	_	_
+3	رو	رو	PART	PART	_	2	case	_	_
+4	هر	هر	DET	DET	_	5	det	_	_
+5	روز	روز	NOUN	N_SING	Number=Sing	10	dep	_	_
+6	در	در	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	ورزش	ورزش	NOUN	N_SING	Number=Sing	10	dep	_	_
+9	می	می	VERB	V	_	10	dep	_	_
+10	کنیم	کنیم	VERB	V	_	0	root	_	_
+11	.	.	PUNCT	DELM	_	10	punct	_	_
+
+# sent_id = test-32
+# text = در پارک محل هر روز ورزش می کنیم.
+# gold_has_dislocated = No
+1	در	در	ADP	P	_	2	case	_	_
+2	پارک	پارک	NOUN	N_SING	Number=Sing	8	dep	_	_
+3	محل	محل	NOUN	N_SING	Number=Sing	8	dep	_	_
+4	هر	هر	DET	DET	_	5	det	_	_
+5	روز	روز	NOUN	N_SING	Number=Sing	8	dep	_	_
+6	ورزش	ورزش	NOUN	N_SING	Number=Sing	8	dep	_	_
+7	می	می	VERB	V	_	8	dep	_	_
+8	کنیم	کنیم	VERB	V	_	0	root	_	_
+9	.	.	PUNCT	DELM	_	8	punct	_	_
+
+# sent_id = test-33
+# text = دوستمو پولو براش فرستادی؟
+# gold_has_dislocated = Yes
+# dislocated_head = دوست
+1	دوست	دوست	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	م	م	PRON	PRO	PronType=Prs	1	nmod:poss	_	_
+3	و	و	PART	PART	_	2	case	_	_
+4	پول	پول	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	برا	برا	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	فرستادی	فرستادی	VERB	V	_	0	root	_	_
+9	؟	؟	PUNCT	DELM	_	8	punct	_	_
+
+# sent_id = test-34
+# text = پولو برا دوستم فرستادی؟
+# gold_has_dislocated = No
+1	پول	پول	NOUN	N_SING	Number=Sing	5	dep	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	برا	برا	ADP	P	_	4	case	_	_
+4	دوستم	دوستم	NOUN	N_SING	Number=Sing	5	dep	_	_
+5	فرستادی	فرستادی	VERB	V	_	0	root	_	_
+6	؟	؟	PUNCT	DELM	_	5	punct	_	_
+
+# sent_id = test-35
+# text = استادو ازش مقاله رو گرفتم.
+# gold_has_dislocated = Yes
+# dislocated_head = استاد
+1	استاد	استاد	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	از	از	ADP	P	_	4	case	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	مقاله	مقاله	NOUN	N_SING	Number=Sing	7	dep	_	_
+6	رو	رو	PART	PART	_	5	case	_	_
+7	گرفتم	گرفتم	VERB	V	_	0	root	_	_
+8	.	.	PUNCT	DELM	_	7	punct	_	_
+
+# sent_id = test-36
+# text = از استاد مقاله رو گرفتم.
+# gold_has_dislocated = No
+1	از	از	ADP	P	_	2	case	_	_
+2	استاد	استاد	NOUN	N_SING	Number=Sing	5	dep	_	_
+3	مقاله	مقاله	NOUN	N_SING	Number=Sing	5	dep	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	گرفتم	گرفتم	VERB	V	_	0	root	_	_
+6	.	.	PUNCT	DELM	_	5	punct	_	_
+
+# sent_id = test-37
+# text = پلیسو شیدا گواهینامشو بهش داد
+# gold_has_dislocated = Yes
+# dislocated_head = پلیس
+1	پلیس	پلیس	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	شیدا	شیدا	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	گواهینام	گواهینام	NOUN	N_SING	Number=Sing	9	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	و	و	PART	PART	_	5	case	_	_
+7	به	به	ADP	P	_	8	case	_	_
+8	ش	ش	PRON	PRO	PronType=Prs	7	nmod:poss	_	_
+9	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-38
+# text = شیدا گواهینامشو به پلیس داد
+# gold_has_dislocated = No
+1	شیدا	شیدا	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	گواهینام	گواهینام	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	ش	ش	PRON	PRO	PronType=Prs	2	nmod:poss	_	_
+4	و	و	PART	PART	_	3	case	_	_
+5	به	به	ADP	P	_	6	case	_	_
+6	پلیس	پلیس	NOUN	N_SING	Number=Sing	7	dep	_	_
+7	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-39
+# text = صاحب خونره رو کلیدا رو بهش دادم
+# gold_has_dislocated = Yes
+# dislocated_head = صاحب
+1	صاحب	صاحب	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	خونره	خونره	NOUN	N_SING	Number=Sing	8	dep	_	_
+3	رو	رو	PART	PART	_	2	case	_	_
+4	کلیدا	کلیدا	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	رو	رو	PART	PART	_	4	case	_	_
+6	به	به	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	دادم	دادم	VERB	V	_	0	root	_	_
+
+# sent_id = test-40
+# text = به صاحب خونه کلیدا رو دادم
+# gold_has_dislocated = No
+1	به	به	ADP	P	_	2	case	_	_
+2	صاحب	صاحب	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	خونه	خونه	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	کلیدا	کلیدا	NOUN	N_SING	Number=Sing	6	dep	_	_
+5	رو	رو	PART	PART	_	4	case	_	_
+6	دادم	دادم	VERB	V	_	0	root	_	_
+
+# sent_id = test-41
+# text = سگو بچه ازش ترسید
+# gold_has_dislocated = Yes
+# dislocated_head = سگ
+1	سگ	سگ	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	بچه	بچه	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	ترسید	ترسید	VERB	V	_	0	root	_	_
+
+# sent_id = test-42
+# text = بچه از سگ ترسید
+# gold_has_dislocated = No
+1	بچه	بچه	NOUN	N_SING	Number=Sing	4	dep	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	سگ	سگ	NOUN	N_SING	Number=Sing	4	dep	_	_
+4	ترسید	ترسید	VERB	V	_	0	root	_	_
+
+# sent_id = test-43
+# text = ماسکو باهاش بچه رو ترسوند
+# gold_has_dislocated = Yes
+# dislocated_head = ماسک
+1	ماسک	ماسک	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	با	با	ADP	P	_	4	case	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	بچه	بچه	NOUN	N_SING	Number=Sing	7	dep	_	_
+6	رو	رو	PART	PART	_	5	case	_	_
+7	ترسوند	ترسوند	VERB	V	_	0	root	_	_
+
+# sent_id = test-44
+# text = با ماسک بچه رو ترسوند
+# gold_has_dislocated = No
+1	با	با	ADP	P	_	2	case	_	_
+2	ماسک	ماسک	NOUN	N_SING	Number=Sing	5	dep	_	_
+3	بچه	بچه	NOUN	N_SING	Number=Sing	5	dep	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	ترسوند	ترسوند	VERB	V	_	0	root	_	_
+
+# sent_id = test-45
+# text = بچه رو با ماسک ترسوندش
+# gold_has_dislocated = Yes
+# dislocated_head = بچه
+1	بچه	بچه	NOUN	N_SING	Number=Sing	5	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	با	با	ADP	P	_	4	case	_	_
+4	ماسک	ماسک	NOUN	N_SING	Number=Sing	5	dep	_	_
+5	ترسوند	ترسوند	VERB	V	_	0	root	_	_
+6	ش	ش	PRON	PRO	PronType=Prs	5	obj	_	_
+
+# sent_id = test-46
+# text = استخرو تا آخرشو شنا کردم
+# gold_has_dislocated = Yes
+# dislocated_head = استخر
+1	استخر	استخر	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	تا	تا	ADP	P	_	4	case	_	_
+4	آخر	آخر	NOUN	N_SING	Number=Sing	7	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	و	و	PART	PART	_	5	case	_	_
+7	شنا	شنا	VERB	V	_	0	root	_	_
+8	کردم	کردم	NOUN	N_SING	Number=Sing	7	dep	_	_
+
+# sent_id = test-47
+# text = تا آخر استخر شنا کردم
+# gold_has_dislocated = No
+1	تا	تا	ADP	P	_	2	case	_	_
+2	آخر	آخر	NOUN	N_SING	Number=Sing	4	dep	_	_
+3	استخر	استخر	NOUN	N_SING	Number=Sing	4	dep	_	_
+4	شنا	شنا	VERB	V	_	0	root	_	_
+5	کردم	کردم	NOUN	N_SING	Number=Sing	4	dep	_	_
+
+# sent_id = test-48
+# text = میدانو گروهبان درش سربازا رو رژه برد
+# gold_has_dislocated = Yes
+# dislocated_head = میدان
+1	میدان	میدان	VERB	V	_	9	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	گروهبان	گروهبان	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	در	در	ADP	P	_	5	case	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	سربازا	سربازا	NOUN	N_SING	Number=Sing	9	dep	_	_
+7	رو	رو	PART	PART	_	6	case	_	_
+8	رژه	رژه	NOUN	N_SING	Number=Sing	9	dep	_	_
+9	برد	برد	VERB	V	_	0	root	_	_
+
+# sent_id = test-49
+# text = گوشیو باهاش مریضی رو تشخیص داد
+# gold_has_dislocated = Yes
+# dislocated_head = گوشی
+1	گوشی	گوشی	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	با	با	ADP	P	_	4	case	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	مریضی	مریضی	NOUN	N_SING	Number=Sing	8	dep	_	_
+6	رو	رو	PART	PART	_	5	case	_	_
+7	تشخیص	تشخیص	VERB	V	_	8	dep	_	_
+8	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-50
+# text = با گوشی مریضی رو تشخیص دادش
+# gold_has_dislocated = Yes
+# dislocated_head = مریضی
+1	با	با	ADP	P	_	2	case	_	_
+2	گوشی	گوشی	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	مریضی	مریضی	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	تشخیص	تشخیص	VERB	V	_	6	dep	_	_
+6	داد	داد	VERB	V	_	0	root	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	obj	_	_
+
+# sent_id = test-51
+# text = با گوشی مریضی رو تشخیص داد
+# gold_has_dislocated = No
+1	با	با	ADP	P	_	2	case	_	_
+2	گوشی	گوشی	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	مریضی	مریضی	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	رو	رو	PART	PART	_	3	case	_	_
+5	تشخیص	تشخیص	VERB	V	_	6	dep	_	_
+6	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-52
+# text = سوزنو بچه باهاش بادکنکو ترکوند
+# gold_has_dislocated = Yes
+# dislocated_head = سوزن
+1	سوزن	سوزن	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	بچه	بچه	NOUN	N_SING	Number=Sing	8	dep	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	بادکنک	بادکنک	NOUN	N_SING	Number=Sing	8	dep	_	_
+7	و	و	PART	PART	_	6	case	_	_
+8	ترکوند	ترکوند	VERB	V	_	0	root	_	_
+
+# sent_id = test-53
+# text = سوزنو باهاش بچه بادکنکو ترکوند
+# gold_has_dislocated = Yes
+# dislocated_head = سوزن
+1	سوزن	سوزن	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	با	با	ADP	P	_	4	case	_	_
+4	ش	ش	PRON	PRO	PronType=Prs	3	nmod:poss	_	_
+5	بچه	بچه	NOUN	N_SING	Number=Sing	8	dep	_	_
+6	بادکنک	بادکنک	NOUN	N_SING	Number=Sing	8	dep	_	_
+7	و	و	PART	PART	_	6	case	_	_
+8	ترکوند	ترکوند	VERB	V	_	0	root	_	_
+
+# sent_id = test-54
+# text = با سوزن بچه بادکنکو ترکوندش
+# gold_has_dislocated = Yes
+# dislocated_head = با
+1	با	با	ADP	P	_	6	dislocated	_	_
+2	سوزن	سوزن	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	بچه	بچه	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	بادکنک	بادکنک	NOUN	N_SING	Number=Sing	6	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	ترکوند	ترکوند	VERB	V	_	0	root	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	obj	_	_
+
+# sent_id = test-55
+# text = نرم افزارو ویالون باهاش یاد گرفتم
+# gold_has_dislocated = Yes
+# dislocated_head = نرم
+1	نرم	نرم	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	افزار	افزار	NOUN	N_SING	Number=Sing	8	dep	_	_
+3	و	و	PART	PART	_	2	case	_	_
+4	ویالون	ویالون	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	با	با	ADP	P	_	6	case	_	_
+6	ش	ش	PRON	PRO	PronType=Prs	5	nmod:poss	_	_
+7	یاد	یاد	VERB	V	_	8	dep	_	_
+8	گرفتم	گرفتم	VERB	V	_	0	root	_	_
+
+# sent_id = test-56
+# text = با نرم افزار ویالون یاد گرفتم
+# gold_has_dislocated = No
+1	با	با	ADP	P	_	2	case	_	_
+2	نرم	نرم	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	افزار	افزار	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	ویالون	ویالون	NOUN	N_SING	Number=Sing	6	dep	_	_
+5	یاد	یاد	VERB	V	_	6	dep	_	_
+6	گرفتم	گرفتم	VERB	V	_	0	root	_	_
+
+# sent_id = test-57
+# text = ماشینو کیانا به درش خورد
+# gold_has_dislocated = Yes
+# dislocated_head = ماشین
+1	ماشین	ماشین	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	کیانا	کیانا	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	در	در	ADP	P	_	6	case	_	_
+6	ش	ش	PRON	PRO	PronType=Prs	5	nmod:poss	_	_
+7	خورد	خورد	VERB	V	_	0	root	_	_
+
+# sent_id = test-58
+# text = کیانا به در ماشین خورد
+# gold_has_dislocated = No
+1	کیانا	کیانا	NOUN	N_SING	Number=Sing	5	dep	_	_
+2	به	به	ADP	P	_	3	case	_	_
+3	در	در	ADP	P	_	4	case	_	_
+4	ماشین	ماشین	NOUN	N_SING	Number=Sing	5	dep	_	_
+5	خورد	خورد	VERB	V	_	0	root	_	_
+
+# sent_id = test-59
+# text = ماشینو کیانا توپو به درش زد
+# gold_has_dislocated = Yes
+# dislocated_head = ماشین
+1	ماشین	ماشین	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	کیانا	کیانا	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	توپ	توپ	NOUN	N_SING	Number=Sing	9	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	به	به	ADP	P	_	7	case	_	_
+7	در	در	ADP	P	_	8	case	_	_
+8	ش	ش	PRON	PRO	PronType=Prs	7	nmod:poss	_	_
+9	زد	زد	VERB	V	_	0	root	_	_
+
+# sent_id = test-60
+# text = کیانا با توپ به در ماشین زد
+# gold_has_dislocated = No
+1	کیانا	کیانا	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	با	با	ADP	P	_	3	case	_	_
+3	توپ	توپ	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	در	در	ADP	P	_	6	case	_	_
+6	ماشین	ماشین	NOUN	N_SING	Number=Sing	7	dep	_	_
+7	زد	زد	VERB	V	_	0	root	_	_
+
+# sent_id = test-61
+# text = غلتکو دیوار اتاقو باهاش رنگ بزن
+# gold_has_dislocated = Yes
+# dislocated_head = غلتک
+1	غلتک	غلتک	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	دیوار	دیوار	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	اتاق	اتاق	NOUN	N_SING	Number=Sing	9	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	با	با	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	رنگ	رنگ	NOUN	N_SING	Number=Sing	9	dep	_	_
+9	بزن	بزن	VERB	V	_	0	root	_	_
+
+# sent_id = test-62
+# text = با غلتک دیوار اتاقو رنگ بزن
+# gold_has_dislocated = No
+1	با	با	ADP	P	_	2	case	_	_
+2	غلتک	غلتک	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	دیوار	دیوار	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	اتاق	اتاق	NOUN	N_SING	Number=Sing	7	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	رنگ	رنگ	NOUN	N_SING	Number=Sing	7	dep	_	_
+7	بزن	بزن	VERB	V	_	0	root	_	_
+
+# sent_id = test-63
+# text = موزه رو مجسمه ها رو بهش تحویل دادیم
+# gold_has_dislocated = Yes
+# dislocated_head = موزه
+1	موزه	موزه	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	مجسمه	مجسمه	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	ها	ها	NOUN	N_SING	Number=Sing	9	dep	_	_
+5	رو	رو	PART	PART	_	4	case	_	_
+6	به	به	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	تحویل	تحویل	VERB	V	_	9	dep	_	_
+9	دادیم	دادیم	VERB	V	_	0	root	_	_
+
+# sent_id = test-64
+# text = مجسمه ها رو به موزه تحویل دادیم.
+# gold_has_dislocated = No
+1	مجسمه	مجسمه	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	ها	ها	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	رو	رو	PART	PART	_	2	case	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	موزه	موزه	NOUN	N_SING	Number=Sing	7	dep	_	_
+6	تحویل	تحویل	VERB	V	_	7	dep	_	_
+7	دادیم	دادیم	VERB	V	_	0	root	_	_
+8	.	.	PUNCT	DELM	_	7	punct	_	_
+
+# sent_id = test-65
+# text = صاحب خونه رو کلیدارو بهش دادم
+# gold_has_dislocated = Yes
+# dislocated_head = صاحب
+1	صاحب	صاحب	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	خونه	خونه	NOUN	N_SING	Number=Sing	8	dep	_	_
+3	رو	رو	PART	PART	_	2	case	_	_
+4	کلیدار	کلیدار	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	به	به	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	دادم	دادم	VERB	V	_	0	root	_	_
+
+# sent_id = test-66
+# text = به صاحب خونه کلیدا رو دادم
+# gold_has_dislocated = No
+1	به	به	ADP	P	_	2	case	_	_
+2	صاحب	صاحب	NOUN	N_SING	Number=Sing	6	dep	_	_
+3	خونه	خونه	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	کلیدا	کلیدا	NOUN	N_SING	Number=Sing	6	dep	_	_
+5	رو	رو	PART	PART	_	4	case	_	_
+6	دادم	دادم	VERB	V	_	0	root	_	_
+
+# sent_id = test-67
+# text = بچه رو مادر بهش غذا داد
+# gold_has_dislocated = Yes
+# dislocated_head = بچه
+1	بچه	بچه	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	مادر	مادر	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	غذا	غذا	VERB	V	_	7	dep	_	_
+7	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-68
+# text = مادر به بچه غذا داد
+# gold_has_dislocated = No
+1	مادر	مادر	NOUN	N_SING	Number=Sing	5	dep	_	_
+2	به	به	ADP	P	_	3	case	_	_
+3	بچه	بچه	NOUN	N_SING	Number=Sing	5	dep	_	_
+4	غذا	غذا	VERB	V	_	5	dep	_	_
+5	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-69
+# text = قاشقو مریم بچش رو باهاش غذا داد
+# gold_has_dislocated = Yes
+# dislocated_head = قاشق
+1	قاشق	قاشق	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	مریم	مریم	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	بچش	بچش	NOUN	N_SING	Number=Sing	9	dep	_	_
+5	رو	رو	PART	PART	_	4	case	_	_
+6	با	با	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	غذا	غذا	VERB	V	_	9	dep	_	_
+9	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-70
+# text = مریم با قاشق بچشو غذا داد
+# gold_has_dislocated = No
+1	مریم	مریم	NOUN	N_SING	Number=Sing	8	dep	_	_
+2	با	با	ADP	P	_	3	case	_	_
+3	قاشق	قاشق	NOUN	N_SING	Number=Sing	8	dep	_	_
+4	بچ	بچ	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	و	و	PART	PART	_	5	case	_	_
+7	غذا	غذا	VERB	V	_	8	dep	_	_
+8	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-71
+# text = مریم با قاشق به بچش غذا داد
+# gold_has_dislocated = No
+1	مریم	مریم	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	با	با	ADP	P	_	3	case	_	_
+3	قاشق	قاشق	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	بچش	بچش	NOUN	N_SING	Number=Sing	7	dep	_	_
+6	غذا	غذا	VERB	V	_	7	dep	_	_
+7	داد	داد	VERB	V	_	0	root	_	_
+
+# sent_id = test-72
+# text = غذا رو شیدا مطمئنه که بهش نمک زده
+# gold_has_dislocated = Yes
+# dislocated_head = غذا
+1	غذا	غذا	VERB	V	_	9	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	شیدا	شیدا	NOUN	N_SING	Number=Sing	9	dep	_	_
+4	مطمئنه	مطمئنه	NOUN	N_SING	Number=Sing	9	dep	_	_
+5	که	که	NOUN	N_SING	Number=Sing	9	dep	_	_
+6	به	به	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	نمک	نمک	VERB	V	_	9	dep	_	_
+9	زده	زده	VERB	V	_	0	root	_	_
+
+# sent_id = test-73
+# text = شیدا مطمئنه که به غذا نمک زده
+# gold_has_dislocated = No
+1	شیدا	شیدا	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	مطمئنه	مطمئنه	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	که	که	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	غذا	غذا	VERB	V	_	7	dep	_	_
+6	نمک	نمک	VERB	V	_	7	dep	_	_
+7	زده	زده	VERB	V	_	0	root	_	_
+
+# sent_id = test-74
+# text = مردی رو که ما دیروز دیدیم، معلمه
+# gold_has_dislocated = No
+1	مردی	مردی	NOUN	N_SING	Number=Sing	8	dep	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	که	که	NOUN	N_SING	Number=Sing	8	dep	_	_
+4	ما	ما	PRON	PRO	PronType=Prs	8	dep	_	_
+5	دیروز	دیروز	NOUN	N_SING	Number=Sing	8	dep	_	_
+6	دیدیم	دیدیم	VERB	V	_	8	dep	_	_
+7	،	،	PUNCT	DELM	_	8	punct	_	_
+8	معلمه	معلمه	VERB	V	_	0	root	_	_
+
+# sent_id = test-75
+# text = مردی که دیروز دیدیمش، معلمه
+# gold_has_dislocated = No
+1	مردی	مردی	NOUN	N_SING	Number=Sing	7	dep	_	_
+2	که	که	NOUN	N_SING	Number=Sing	7	dep	_	_
+3	دیروز	دیروز	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	دیدیم	دیدیم	VERB	V	_	7	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	obj	_	_
+6	،	،	PUNCT	DELM	_	7	punct	_	_
+7	معلمه	معلمه	VERB	V	_	0	root	_	_
+
+# sent_id = test-76
+# text = غزلو، کتابشو پیدا کردم
+# gold_has_dislocated = Yes
+# dislocated_head = غزل
+1	غزل	غزل	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	،	،	PUNCT	DELM	_	7	punct	_	_
+4	کتاب	کتاب	NOUN	N_SING	Number=Sing	7	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	و	و	PART	PART	_	5	case	_	_
+7	پیدا	پیدا	VERB	V	_	0	root	_	_
+8	کردم	کردم	NOUN	N_SING	Number=Sing	7	dep	_	_
+
+# sent_id = test-77
+# text = غزلو، کتابو بهش دادم
+# gold_has_dislocated = Yes
+# dislocated_head = غزل
+1	غزل	غزل	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	و	و	PART	PART	_	1	case	_	_
+3	،	،	PUNCT	DELM	_	8	punct	_	_
+4	کتاب	کتاب	NOUN	N_SING	Number=Sing	8	dep	_	_
+5	و	و	PART	PART	_	4	case	_	_
+6	به	به	ADP	P	_	7	case	_	_
+7	ش	ش	PRON	PRO	PronType=Prs	6	nmod:poss	_	_
+8	دادم	دادم	VERB	V	_	0	root	_	_
+
+# sent_id = test-78
+# text = رضا برادرش اومد
+# gold_has_dislocated = Yes
+# dislocated_head = رضا
+1	رضا	رضا	NOUN	N_SING	Number=Sing	3	dislocated	_	_
+2	برادرش	برادرش	NOUN	N_SING	Number=Sing	3	dep	_	_
+3	اومد	اومد	VERB	V	_	0	root	_	_
+
+# sent_id = test-79
+# text = رضا رو نیما برادرش رو دید
+# gold_has_dislocated = Yes
+# dislocated_head = رضا
+1	رضا	رضا	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	نیما	نیما	NOUN	N_SING	Number=Sing	6	dep	_	_
+4	برادرش	برادرش	NOUN	N_SING	Number=Sing	6	dep	_	_
+5	رو	رو	PART	PART	_	4	case	_	_
+6	دید	دید	VERB	V	_	0	root	_	_
+
+# sent_id = test-80
+# text = رضا رو نیما بهش غذا دااد
+# gold_has_dislocated = Yes
+# dislocated_head = رضا
+1	رضا	رضا	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	نیما	نیما	NOUN	N_SING	Number=Sing	7	dep	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	nmod:poss	_	_
+6	غذا	غذا	VERB	V	_	7	dep	_	_
+7	دااد	دااد	VERB	V	_	0	root	_	_
+
+# sent_id = test-81
+# text = بچه رو من گازش گرفتم
+# gold_has_dislocated = Yes
+# dislocated_head = بچه
+1	بچه	بچه	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+2	رو	رو	PART	PART	_	1	case	_	_
+3	من	من	PRON	PRO	PronType=Prs	6	dep	_	_
+4	گاز	گاز	VERB	V	_	6	dep	_	_
+5	ش	ش	PRON	PRO	PronType=Prs	4	obj	_	_
+6	گرفتم	گرفتم	VERB	V	_	0	root	_	_
+
+# sent_id = test-82
+# text = من بچه رو گاز گرفتم
+# gold_has_dislocated = No
+1	من	من	PRON	PRO	PronType=Prs	5	dep	_	_
+2	بچه	بچه	NOUN	N_SING	Number=Sing	5	dep	_	_
+3	رو	رو	PART	PART	_	2	case	_	_
+4	گاز	گاز	VERB	V	_	5	dep	_	_
+5	گرفتم	گرفتم	VERB	V	_	0	root	_	_

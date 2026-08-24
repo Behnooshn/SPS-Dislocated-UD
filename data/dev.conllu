@@ -1,0 +1,1300 @@
+# sent_id = 13
+# text = و این فضا رو به این خوبی درک میکنن
+1	و	و	CCONJ	CON	_	9	cc	_	_
+2	این	این	DET	DET	PronType=Dem	3	det	_	_
+3	فضا	فضا	NOUN	N_SING	Number=Sing	9	obj	_	_
+4	رو	را	PART	PART	_	3	case	_	_
+5	به	به	ADP	P	_	7	case	_	_
+6	این	این	DET	DET	PronType=Dem	7	det	_	_
+7	خوبی	خوب	NOUN	N_SING	Number=Sing	9	obl	_	_
+8	درک	درک	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+9	میکنن	کرد#کن	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 29
+# text = توی ته این داستانو دیدمش
+1	توی	در	ADP	P	_	2	case	_	_
+2	ته	ته	NOUN	N_SING	Number=Sing	6	obl	_	_
+3	این	این	DET	DET	PronType=Dem	4	det	_	_
+4-5	داستانو	_	_	_	_	_	_	_	_
+4	داستان	داستان	NOUN	N_SING	Number=Sing	6	dislocated	_	_
+5	و	را	ADP	P	_	4	case	_	_
+6-7	دیدمش	_	_	_	_	_	_	_	_
+6	دیدم	دید#بین	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+7	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+
+# sent_id = 30
+# text = که این کارا رو باهاشون انجام میدن جدیدا
+1	که	که	SCONJ	CON	_	8	mark	_	_
+2	این	این	DET	DET	PronType=Dem	3	det	_	_
+3	کارا	کار	NOUN	N_PL	Number=Plur	8	obj	_	_
+4	رو	را	PART	PART	_	3	case	_	_
+5-6	باهاشون	_	_	_	_	_	_	_	_
+5	با	با	ADP	P	_	6	case	_	_
+6	هاشون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+7	انجام	انجام	NOUN	N_SING	Number=Sing	8	compound:lvc	_	_
+8	میدن	داد#ده	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
+9	جدیدا	جدیداً	ADV	ADV	_	8	advmod	_	_
+
+# sent_id = 41
+# text = چون واقعا اخلاقی که ده هیچ از همه کسایی که میشناسم جلوتره، نه اخلاقیو که کاری ندارم بهش
+1	چون	چون	SCONJ	CON	_	13	mark	_	_
+2	واقعا	واقعاً	ADV	ADV	_	13	advmod	_	_
+3	اخلاقی	اخلاقی	ADV	ADV	_	13	advmod	_	_
+4	که	که	PART	PART	_	13	discourse	_	_
+5	ده	ده	NUM	NUM	NumType=Card	6	nummod	_	_
+6	هیچ	هیچ	NUM	NUM	NumType=Card	13	advmod	_	_
+7	از	از	ADP	P	_	9	case	_	_
+8	همه	همه	DET	DET	PronType=Tot	9	det	_	_
+9	کسایی	کس	NOUN	N_PL	Number=Plur	13	obl	_	_
+10	که	که	SCONJ	CON	_	11	mark	_	_
+11	میشناسم	شناخت#شناس	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	9	acl:relcl	_	_
+12	جلوتر	جلوتر	ADJ	ADJ_CMPR	Degree=Cmp	0	root	_	_
+13	ه	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	12	cop	_	_
+14	،	،	PUNCT	DELM	_	12	punct	_	_
+15	نه	نه	PART	PART	Polarity=Neg	16	advmod	_	_
+16-17	اخلاقیو	_	_	_	_	_	_	_	_
+16	اخلاقی	اخلاقی	NOUN	N_SING	Number=Sing	20	dislocated	_	_
+17	و	را	PART	PART	_	16	case	_	_
+18	که	که	PART	PART	_	16	discourse	_	_
+19	کاری	کار	NOUN	N_SING	Number=Sing	20	obj	_	_
+20	ندارم	داشت#دار	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	12	parataxis	_	_
+21-22	بهش	_	_	_	_	_	_	_	_
+21	به	به	ADP	P	_	22	case	_	_
+22	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	20	obl:arg	_	_
+
+# sent_id = 55
+# text = این حفاظه رو هم بستش
+1	این	این	DET	DET	PronType=Dem	2	det	_	_
+2	حفاظه	حفاظه	NOUN	N_SING	Number=Sing	5	dislocated	_	_
+3	رو	را	PART	PART	_	2	case	_	_
+4	هم	هم	PART	PART	_	2	discourse:top/foc	_	_
+5-6	بستش	_	_	_	_	_	_	_	_
+5	بست	بست#بند	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+
+# sent_id = 76
+# text = منم خب خیلی خوشحال از اینکه این شغلو به دست اووردمش
+1-2	منم	_	_	_	_	_	_	_	_
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	م	هم	PART	PART	_	1	discourse:top/foc	_	_
+3	خب	خوب	INTJ	INT	_	5	discourse	_	_
+4	خیلی	خیلی	ADV	ADV	_	5	advmod	_	_
+5	خوشحال	خوشحال	ADJ	ADJ	Degree=Pos	0	root	_	_
+6	از	از	ADP	P	_	7	case	_	_
+7-8	اینکه	_	_	_	_	_	_	_	_
+7	این	این	PRON	PRO	Number=Sing|PronType=Dem	5	obl	_	_
+8	که	که	SCONJ	CON	_	14	mark	_	_
+9	این	این	DET	DET	PronType=Dem	10	det	_	_
+10-11	شغلو	_	_	_	_	_	_	_	_
+10	شغل	شغل	NOUN	N_SING	Number=Sing	14	dislocated	_	_
+11	و	را	PART	PART	_	10	case	_	_
+12	به	به	ADP	P	_	13	case	_	_
+13	دست	دست	NOUN	N_SING	Number=Sing	14	compound:lvc	_	_
+14-15	اووردمش	_	_	_	_	_	_	_	_
+14	اووردم	آورد#آور	VERB	V_PA	Number=Sing|Person=1|Tense=Past	7	acl	_	_
+15	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+
+# sent_id = 83
+# text = من این راحتیا رو داشتمشون
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	این	این	DET	DET	PronType=Dem	3	det	_	_
+3	راحتیا	راحتی	NOUN	N_PL	Number=Plur	5	dislocated	_	_
+4	رو	را	PART	PART	_	3	case	_	_
+5-6	داشتمشون	_	_	_	_	_	_	_	_
+5	داشتم	داشت#دار	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+6	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+
+# sent_id = 92
+# text = هر دوتاشونم بدیای خودشونو دارن
+1	هر	هر	DET	DET	_	2	det	_	_
+2-4	دوتاشونم	_	_	_	_	_	_	_	_
+2	دوتا	دوتا	NOUN	N_PL	Number=Plur	11	nsubj	_	_
+3	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	_
+4	م	هم	PART	PART	_	2	discourse:top/foc	_	_
+5-7	بدیای	_	_	_	_	_	_	_	_
+5	بدی	بدی	NOUN	N_SING	Number=Sing	11	obj	_	_
+6	ها	ها	X	_	_	5	goeswith	_	_
+7	ی	ی	ADP	P	_	5	case	_	_
+8-10	خودشونو	_	_	_	_	_	_	_	_
+8	خود	خود	PRON	PRO	PronType=Prs|Reflex=Yes	5	nmod:poss	_	_
+9	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	8	nmod:poss	_	_
+10	و	را	PART	PART	_	5	case	_	_
+11	دارن	داشت#دار	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 107
+# text = یا شاید مثلا بیشتر افرادی که اصلا یهو با تو آشنا شدن
+1	یا	یا	CCONJ	CON	_	5	cc	_	_
+2	شاید	شاید	ADV	ADV	_	5	advmod	_	_
+3	مثلا	مثلاً	ADV	ADV	_	5	advmod	_	_
+4	بیشتر	بیشتر	ADJ	ADJ	Degree=Cmp	5	amod	_	_
+5	افرادی	فرد	NOUN	N_PL	Number=Plur	0	root	_	_
+6	که	که	SCONJ	CON	_	12	mark	_	_
+7	اصلا	اصلاً	ADV	ADV	_	12	advmod	_	_
+8	یهو	یکهو	ADV	ADV	_	12	advmod	_	_
+9	با	با	ADP	P	_	10	case	_	_
+10	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	12	obl	_	_
+11	آشنا	آشنا	ADJ	ADJ	Degree=Pos	12	compound:lvc	_	_
+12	شدن	شد#شو	VERB	V_PA	Number=Plur|Person=3|Tense=Past	5	acl:relcl	_	_
+
+# sent_id = 109
+# text = و یک سوالی مطرح میشه
+1	و	و	CCONJ	CON	_	5	cc	_	_
+2	یک	یک	NUM	NUM	NumType=Card	3	nummod	_	_
+3	سوالی	سوالی	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+4	مطرح	مطرح	NOUN	N_SING	Number=Sing	3	nmod	_	_
+5	میشه	شد#شو	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 121
+# text = یا مردم انقدر خوششون بیاد
+1	یا	یا	CCONJ	CON	_	6	cc	_	_
+2	مردم	مردم	NOUN	N_PL	Number=Plur	6	nsubj	_	_
+3	انقدر	آنقدر	ADV	ADV	_	6	advmod	_	_
+4-5	خوششون	_	_	_	_	_	_	_	_
+4	خوش	خوش	ADJ	ADJ	Degree=Pos	6	compound:lvc	_	_
+5	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	4	nmod:poss	_	_
+6	بیاد	آمد#آ	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 135
+# text = پس من باید حفظش کنم
+1	پس	پس	ADV	ADV	_	5	advmod	_	_
+2	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	5	aux	_	_
+4	حفظش	حفظش	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	کنم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 138
+# text = تو من اونقدر فشار رو خودم حس نمیکردمش
+1	تو	تو	INTJ	INT	_	8	discourse	_	_
+2	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	اونقدر	آنقدر	ADV	ADV	_	8	advmod	_	_
+4	فشار	فشار	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+5	رو	را	PART	PART	_	4	case	_	_
+6	خود	خود	PRON	PRO	PronType=Prs|Reflex=Yes	8	advmod	_	_
+7	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
+8	حس	حس	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
+9	نمی‌کردم	کرد#کن	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+10	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+
+# sent_id = 139
+# text = اون حرفی که یه نفر زده
+1	اون	آن	DET	DET	PronType=Dem	2	det	_	_
+2	حرفی	حرف	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	6	mark	_	_
+4	یه	یک	NUM	NUM	NumType=Card	5	nummod	_	_
+5	نفر	نفر	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+6	زده	زد#زن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	2	acl:relcl	_	_
+
+# sent_id = 141
+# text = به خاطر اینکه من دیده بشم
+1	به	به	ADP	P	_	3	case	_	_
+2	خاطر	خاطر	NOUN	N_SING	Number=Sing	1	fixed	_	_
+3-4	اینکه	_	_	_	_	_	_	_	_
+3	این	این	PRON	PRO	Number=Sing|PronType=Dem	7	obl	_	_
+4	که	که	SCONJ	CON	_	6	mark	_	_
+5	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	دیده	دید#بین	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	3	acl:relcl	_	_
+7	بشم	شد#شو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 144
+# text = واقعا کارت خوبه و دوست داشتنی
+1	واقعا	واقعاً	ADV	ADV	_	4	advmod	_	_
+2-3	کارت	_	_	_	_	_	_	_	_
+2	کار	کار	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	ت	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+4-5	خوبه	_	_	_	_	_	_	_	_
+4	خوب	خوب	ADJ	ADJ	Degree=Pos	0	root	_	_
+5	ه	هست	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+6	و	و	CCONJ	CON	_	7	cc	_	_
+7	دوست	دوست‌داشته	NOUN	N_SING	Number=Sing	4	conj	_	_
+8	داشتنی	_	X	_	_	7	goeswith	_	_
+
+# sent_id = 146
+# text = آدم نمیفهمه بعضی جاها داره شوخی میکنه یا
+1	آدم	آدم	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+2	نمیفهمه	فهمید#فهم	VERB	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
+3	بعضی	بعضی	DET	DET	_	4	det	_	_
+4	جاها	جا	NOUN	N_PL	Number=Plur	7	nsubj	_	_
+5	داره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	7	aux	_	_
+6	شوخی	شوخی	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	میکنه	کرد#کن	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	2	ccomp	_	_
+8	یا	یا	CCONJ	CON	_	2	cc	_	_
+
+# sent_id = 158
+# text = ولی ما میبینیمشون فکر کنم
+1	ولی	ولی	CCONJ	CON	_	3	cc	_	_
+2	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3-4	میبینیمشون	_	_	_	_	_	_	_	_
+3	میبینیم	دید#بین	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+4	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+5	فکر	فکر	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	کنم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	3	ccomp	_	_
+
+# sent_id = 162
+# text = که درس چیزی هم که داری
+1	که	که	SCONJ	CON	_	6	mark	_	_
+2	درس	درس	NOUN	N_SING	Number=Sing	6	obj	_	_
+3	چیز	چیز	NOUN	N_SING	Number=Sing	2	conj	_	_
+4	هم	هم	PART	PART	_	3	discourse:top/foc	_	_
+5	که	که	PART	PART	_	6	discourse	_	_
+6	داری	داشت#دار	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 163
+# text = حالا اگه بچه ها نمیدونن
+1	حالا	حالا	ADV	ADV_TIME	_	5	advmod	_	_
+2	اگه	اگر	SCONJ	CON	_	5	mark	_	_
+3	بچه	بچه	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+4	ها	_	X	_	_	3	goeswith	_	_
+5	نمیدونن	دانست#دان	VERB	V_PRS	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = 184
+# text = اون علاقه خودمون رو انجام بدیم
+1	اون	آن	DET	DET	PronType=Dem	2	det	_	_
+2	علاقه	علاقه	NOUN	N_SING	Number=Sing	7	obl	_	_
+3-4	خودمون	_	_	_	_	_	_	_	_
+3	خود	خود	PRON	PRO	PronType=Prs|Reflex=Yes	7	obj	_	_
+4	مون	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
+5	رو	را	PART	PART	_	3	case	_	_
+6	انجام	انجام	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	بدیم	داد#ده	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 190
+# text = اون ادیت کردنا رو خیلی دوست دارم
+1	اون	آن	DET	DET	PronType=Dem	3	det	_	_
+2	ادیت	ادیت	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	کردنا	کردن	NOUN	N_PL	Number=Plur	7	obj	_	_
+4	رو	را	PART	PART	_	3	case	_	_
+5	خیلی	خیلی	ADV	ADV	_	7	advmod	_	_
+6	دوست	دوست	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	دارم	داشت#دار	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 195
+# text = حالا یه سری از بچه هامون از ترم اول دکترشون رو زده بودن
+1	حالا	حالا	ADV	ADV_TIME	_	13	advmod	_	_
+2	یه	یک	DET	DET	_	3	det	_	_
+3	سری	سری	NOUN	N_SING	Number=Sing	13	nsubj	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5-6	بچه‌هامون	_	_	_	_	_	_	_	_
+5	بچه‌ها	بچه	NOUN	N_PL	Number=Plur	3	nmod	_	_
+6	مون	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	_
+7	از	از	ADP	P	_	8	case	_	_
+8	ترم	ترم	NOUN	N_SING	Number=Sing	13	obl	_	_
+9	اول	اول	ADJ	ADJ	Degree=Pos	8	amod	_	_
+10-11	دکترشون	_	_	_	_	_	_	_	_
+10	دکتر	دکتر	NOUN	N_SING	Number=Sing	13	obj	_	_
+11	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	10	nmod:poss	_	_
+12	رو	را	PART	PART	_	10	case	_	_
+13	زده	زد#زن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+14	بودن	بود#باش	AUX	V_AUX	Number=Plur|Person=3|Tense=Past	13	aux	_	_Z
+
+# sent_id = 201
+# text = پس چرا وارد دانشگاه نشدی برای همون شاخه؟
+1	پس	پس	ADV	ADV	_	5	advmod	_	_
+2	چرا	چرا	ADV	ADV_I	PronType=Int	5	mark	_	_
+3	وارد	وارد	ADJ	ADJ	Degree=Pos	5	compound:lvc	_	_
+4	دانشگاه	دانشگاه	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	نشدی	شد#شو	VERB	V_PA	Number=Sing|Person=2|Polarity=Neg|Tense=Past	0	root	_	_
+6	برای	برای	ADP	P	_	8	case	_	_
+7	همون	همان	DET	DET	PronType=Dem	8	det	_	_
+8	شاخه	شاخه	NOUN	N_SING	Number=Sing	5	obl	_	_
+9	؟	؟	PUNCT	DELM	_	5	punct	_	_
+
+# sent_id = 210
+# text = میگن حاجی این دو روزه اسهاله
+1	میگن	گفت#گو	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
+2	حاجی	حاجی	INTJ	INTJ	_	1	discourse	_	_
+3	این	این	PRON	PRO	PronType=Dem	7	nsubj	_	_
+4	دو	دو	NUM	NUM	NumType=Card	5	nummod	_	_
+5	روزه	روزه	ADV	ADV_TIME	_	7	advmod	_	_
+6-7	اسهاله	_	_	_	_	_	_	_	_
+6	اسهال	اسهال	NOUN	N_SING	Number=Sing	1	ccomp	_	_
+7	ه	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+
+# sent_id = 217
+# text = من که همیشه کمک میکردم
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	که	که	SCONJ	CON	_	5	mark	_	_
+3	همیشه	همیشه	ADV	ADV_TIME	_	5	advmod	_	_
+4	کمک	كمک	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	میکردم	کرد#کن	VERB	V_PA	Number=Sing|Person=1|Tense=Past	1	acl:relcl	_	_
+
+# sent_id = 219
+# text = مثلا طرف قلنج سگ و اینا رو میشکونه
+1	مثلا	مثلاً	ADV	ADV	_	8	advmod	_	_
+2	طرف	طرف	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+3	قلنج	قلنج	NOUN	N_SING	Number=Sing	8	obj	_	_
+4	سگ	سگ	NOUN	N_SING	Number=Sing	3	nmod	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	اینا	اینها	PRON	PRO	Number=Plur|PronType=Dem	4	conj	_	_
+7	رو	را	PART	PART	_	3	case	_	_
+8	میشکونه	شکست#شکن	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 229
+# text = ولی اینجوری نیست مثلا ستون فقراتت جا بره
+1	ولی	ولی	CCONJ	CON	_	4	cc	_	_
+2-3	اینجوری	_	_	_	_	_	_	_	_
+2	این	این	DET	DET	PronType=Dem	3	det	_	_
+3	جوری	جور	NOUN	N_SING	Number=Sing	4	obl	_	_
+4	نیست	هست	VERB	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
+5	مثلا	مثلاً	ADV	ADV	_	11	advmod	_	_
+6	ستون	ستون	NOUN	N_SING	Number=Sing	11	nsubj	_	_
+7-8	فقراتت	_	_	_	_	_	_	_	_
+7	فقرات	فقره	NOUN	N_PL	Number=Plur	6	nmod	_	_
+8	ت	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	7	nmod:poss	_	_
+9	جا	جا	NOUN	N_SING	Number=Sing	11	compound:lvc	_	_
+10	بره	رفت#رو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
+
+# sent_id = 234
+# text = بعضیاشون میگن آره من پای چپم از پای راستم مثلا سه سانتیمتر کوتاه تر بود
+1-2	بعضیاشون	_	_	_	_	_	_	_	_
+1	بعضیا	بعضی	NOUN	N_PL	Number=Plur	3	nsubj	_	_
+2	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	_
+3	میگن	گفت#گو	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	آره	آره	INTJ	INTJ	_	18	discourse	_	_
+5	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
+6	پای	پا	NOUN	N_SING	Number=Sing	18	nsubj	_	_
+7-8	چپم	_	_	_	_	_	_	_	_
+7	چپ	چپ	ADJ	ADJ	Degree=Pos	6	amod	_	_
+8	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
+9	از	از	ADP	P	_	10	case	_	_
+10	پای	پا	NOUN	N_SING	Number=Sing	18	obl	_	_
+11-12	راستم	_	_	_	_	_	_	_	_
+11	راست	راست	ADJ	ADJ	Degree=Pos	10	amod	_	_
+12	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	10	nmod:poss	_	_
+13	مثلا	مثلاً	ADV	ADV	_	18	advmod	_	_
+14	سه	سه	NUM	NUM	NumType=Card	15	nummod	_	_
+15	سانتیمتر	سانتیمتر	NOUN	N_SING	Number=Sing	18	obl	_	_
+16	کوتاه	کوتاه	ADJ	ADJ	Degree=Pos	3	ccomp	_	_
+17	تر	تر	ADV	ADV	_	16	advmod	_	_
+18	بود	بود#باش	AUX	V_AUX	Number=Sing|Person=3|Tense=Past	16	cop	_	_
+
+# sent_id = 235
+# text = الان با لطف آقای دکتر درست شده
+1	الان	الان	ADV	ADV_TIME	_	7	advmod	_	_
+2	با	با	ADP	P	_	3	case	_	_
+3	لطف	لطف	NOUN	N_SING	Number=Sing	7	obl	_	_
+4	آقای	آقا	NOUN	N_SING	Number=Sing	3	nmod	_	_
+5	دکتر	دکتر	NOUN	N_SING	Number=Sing	4	nmod	_	_
+6	درست	درست	ADJ	ADJ	Degree=Pos	3	amod	_	_
+7	شده	شد#شو	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 241
+# text = چند وقت پیش یک بررسی ماشین میدیدم
+1	چند	چند	DET	DET	_	2	det	_	_
+2	وقت	وقت	NOUN	N_SING	Number=Sing	7	obl	_	_
+3	پیش	پیش	ADP	P	_	5	case	_	_
+4	یک	یک	NUM	NUM	NumType=Card	5	nummod	_	_
+5	بررسی	بررسی	NOUN	N_SING	Number=Sing	7	obl	_	_
+6	ماشین	ماشین	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	میدیدم	دید#بین	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = 242
+# text = یعنی تخصصی برای بازه زمانی الان
+1	یعنی	یعنی	INTJ	INT	_	2	discourse	_	_
+2	تخصصی	تخصض	NOUN	N_SING	Number=Sing|Typo=Yes	0	root	_	_
+3	برای	برای	ADP	P	_	4	case	_	_
+4	بازه	بازه	NOUN	N_SING	Number=Sing	6	nmod	_	_
+5	زمانی	زمانی	SCONJ	CON	_	6	fixed	_	_
+6	الان	الان	ADV	ADV_TIME	_	2	nmod	_	_
+
+# sent_id = 254
+# text = بچه ها اصلا گپ تایمای ما هیچوقت آموزنده نبوده
+1	بچه‌ها	بچه	NOUN	N_PL	Number=Plur	9	vocative	_	_
+2	اصلا	اصلاً	ADV	ADV	_	9	advmod	_	_
+3	گپ	گپ	NOUN	N_SING	Number=Sing|Foreign=Yes	4	compound	_	_
+4	تایمای	تایم	NOUN	N_PL	Number=Plur|Foreign=Yes	9	nsubj	_	_
+5	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
+6	هیچوقت	هیچوقت	ADV	ADV_NEG	PronType=Neg	9	advmod	_	_
+7	آموزنده	آموزنده	ADJ	ADJ	Degree=Pos	9	xcomp	_	_
+8	نبوده	بود#باش	VERB	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	0	root	_	_
+
+# sent_id = 288
+# text = آقا یه ایده خوب اگه داشتم برم با بچه ها بگیرم
+1	آقا	آقا	INTJ	INTJ	_	7	discourse	_	_
+2	یه	یک	DET	DET	_	3	det	_	_
+3	ایده	ایده	NOUN	N_SING	Number=Sing	6	obj	_	_
+4	خوب	خوب	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	اگه	اگر	SCONJ	CON	_	6	mark	_	_
+6	داشتم	داشت#دار	VERB	V_PA	Number=Sing|Person=1|Tense=Past	7	advcl	_	_
+7	برم	رفت#رو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+8	با	با	ADP	P	_	9	case	_	_
+9	بچه‌ها	بچه	NOUN	N_PL	Number=Plur	11	obl	_	_
+10	بگیرم	گرفت#گیر	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	7	ccomp	_	_
+
+# sent_id = 290
+# text = چقدر ظرفیت داره برای پیشرفت
+1	چقدر	چقدر	ADV	ADV_I	PronType=Int	3	advmod	_	_
+2	ظرفیت	ظرفیت	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	داره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	برای	برای	ADP	P	_	5	case	_	_
+5	پیشرفت	پيشرفت	NOUN	N_SING	Number=Sing	3	obl	_	_
+
+# sent_id = 296
+# text = اون بیشتر حالت سینماتیک طور دوست داره ادامه بده
+1	اون	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	بیشتر	بیشتر	ADV	ADV	_	6	advmod	_	_
+3	حالت	حالت	NOUN	N_SING	Number=Sing	8	obl	_	_
+4	سینماتیک	سینماتیک	ADJ	ADJ	Degree=Pos|Foreign=Yes	5	amod	_	_
+5	طور	طور	NOUN	N_SING	Number=Sing	3	nmod	_	_
+6	دوست	دوست	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	داره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+8	ادامه	ادامه	NOUN	N_SING	Number=Sing	9	compound:lvc	_	_
+9	بده	داد#ده	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	7	ccomp	_	_
+
+# sent_id = 310
+# text = من که اونو اصن ندیدمش
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	که	که	PART	PART	_	1	advmod:emph	_	_
+3-4	اونو	_	_	_	_	_	_	_	_
+3	اون	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	5	dislocated	_	_
+4	و	را	PART	PART	_	3	case	_	_
+5	اصن	اصلاً	ADV	ADV	_	7	advmod	_	_
+6-7	ندیدمش	_	_	_	_	_	_	_	_
+6	ندیدم	دید#بین	VERB	V_PA	Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+7	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+
+# sent_id = 311
+# text = ولی تو کسی که ندیدی نشناختی میخوای مخشو بزنی
+1	ولی	ولی	CCONJ	CON	_	7	cc	_	_
+2	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+3	کسی	کس	NOUN	N_SING	Number=Sing	10	dislocated	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	ندیدی	دید#بین	VERB	V_PA	Number=Sing|Person=2|Polarity=Neg|Tense=Past	3	acl:relcl	_	_
+6	نشناختی	شناخت#شناس	VERB	V_PA	Number=Sing|Person=2|Polarity=Neg|Tense=Past	5	conj	_	_
+7	میخوای	خواست#خواه	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	0	root	_	_
+8-10	مخشو	_	_	_	_	_	_	_	_
+8	مخ	مخ	NOUN	N_SING	Number=Sing	11	obj	_	_
+9	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
+10	و	را	PART	PART	_	8	case	_	_
+11	بزنی	زد#زن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	7	ccomp	_	_
+
+# sent_id = 312
+# text = اینو میتونی به اکسات بگیش
+1-2	اینو	_	_	_	_	_	_	_	_
+1	این	این	PRON	PRO	Number=Sing|PronType=Dem	6	dislocated	_	_
+2	و	را	PART	PART	_	1	case	_	_
+3	میتونی	توانست#توان	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	6	aux	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	اکسات	اکس	NOUN	N_PL	Number=Plur|Foreign=Yes	6	obl:arg	_	_
+6-7	بگیش	_	_	_	_	_	_	_	_
+6	بگی	گفت#گو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	0	root	_	_
+7	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+
+# sent_id = 319
+# text = من چهار نفرو با خودم میبرمشون خب
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	چهار	چهار	NUM	NUM	NumType=Card	3	nummod	_	_
+3-4	نفرو	_	_	_	_	_	_	_	_
+3	نفر	نفر	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+4	رو	را	PART	PART	_	3	case	_	_
+5	با	با	ADP	P	_	6	case	_	_
+6-7	خودم	_	_	_	_	_	_	_	_
+6	خود	خود	PRON	PRO	PronType=Prs|Reflex=Yes	8	obl	_	_
+7	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
+8-9	میبرمشون	_	_	_	_	_	_	_	_
+8	میبرم	برد#بر	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	0	root	_	_
+9	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	خب	خب	INTJ	INTJ	_	8	discourse	_	_
+
+# sent_id = 334
+# text = چون من تمام ویدئوهای خودمو ادیت می کنم
+1	چون	چون	SCONJ	CON	_	10	mark	_	_
+2	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+3	تمام	تمام	DET	DET	_	4	det	_	_
+4	ویدئوهای	ویدئو	NOUN	N_PL	Number=Plur	10	obj	_	_
+5-7	خودمو	_	_	_	_	_	_	_	_
+5	خود	خود	PRON	PRO	PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
+6	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
+7	و	را	PART	PART	_	4	case	_	_
+8	ادیت	ادیت	NOUN	N_SING	Number=Sing|Foreign=Yes	10	compound:lvc	_	_
+9	می	می	AUX	V_AUX	_	10	aux	_	_
+10	کنم	کرد#کن	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 336
+# text = از اونورم دیگه اونقدر ایده مثلا خیلی نابی تو ذهنم نداشتم که بخوام ادامه بدم
+1	از	از	ADP	P	_	2	case	_	_
+2-3	اونورم	_	_	_	_	_	_	_	_
+2	اونور	آنور	NOUN	N_SING	Number=Sing	12	obl	_	_
+3	م	هم	PART	PART	_	2	advmod:emph	_	_
+4	دیگه	دیگه	ADV	ADV	_	12	advmod	_	_
+5	اونقدر	آنقدر	ADV	ADV	_	8	advmod	_	_
+6	ایده	ایده	NOUN	N_SING	Number=Sing	12	obj	_	_
+7	مثلا	مثلاً	ADV	ADV	_	8	advmod	_	_
+8	خیلی	خیلی	ADV	ADV	_	9	advmod	_	_
+9	نابی	ناب	ADJ	ADJ	Degree=Pos	6	amod	_	_
+10	تو	در	ADP	P	_	11	case	_	_
+11-12	ذهنم	_	_	_	_	_	_	_	_
+11	ذهن	ذهن	NOUN	N_SING	Number=Sing	12	obl	_	_
+12	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	11	nmod:poss	_	_
+13	نداشتم	داشت#دار	VERB	V_PA	Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+14	که	که	SCONJ	CON	_	15	mark	_	_
+15	بخوام	خواست#خواه	AUX	V_AUX	Mood=Sub|Number=Sing|Person=1|Tense=Pres	17	aux	_	_
+16	ادامه	ادامه	NOUN	N_SING	Number=Sing	17	compound:lvc	_	_
+17	بدم	داد#ده	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	13	advcl	_	_
+
+# sent_id = 348
+# text = دلیلشم یه چیز دیگه ایه احتمالا
+1-3	دلیلشم	_	_	_	_	_	_	_	_
+1	دلیل	دلیل	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+3	م	هم	PART	PART	_	1	advmod:emph	_	_
+4	یه	یک	DET	DET	_	5	det	_	_
+5	چیز	چیز	NOUN	N_SING	Number=Sing	0	root	_	_
+6	دیگه	دیگر	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7-8	ایه	_	_	_	_	_	_	_	_
+7	ای	ای	ADJ	ADJ	_	5	amod	_	_
+8	ه	بود#باش	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+9	احتمالا	احتمالاً	ADV	ADV	_	5	advmod	_	_
+
+# sent_id = 394
+# text = میگفت هر وقت کولر روشن میکنم تصویر میره
+1	میگفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	هر	هر	DET	DET	_	3	det	_	_
+3	وقت	وقت	NOUN	N_SING	Number=Sing	6	obl	_	_
+4	کولر	کولر	NOUN	N_SING	Number=Sing	6	obj	_	_
+5	روشن	روشن	ADJ	ADJ	Degree=Pos	6	compound:lvc	_	_
+6	میکنم	کرد#کن	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	8	advcl	_	_
+7	تصویر	تصویر	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+8	میره	رفت#رو	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	1	ccomp	_	_
+
+# sent_id = 395
+# text = بعد اونم هر موقع میزدم نویز میده
+1	بعد	بعد	ADV	ADV_TIME	_	8	advmod	_	_
+2-3	اونم	_	_	_	_	_	_	_	_
+2	اون	آن	PRON	PRO	Number=Sing|PronType=Dem	8	nsubj	_	_
+3	م	هم	PART	PART	_	2	advmod:emph	_	_
+4	هر	هر	DET	DET	_	5	det	_	_
+5	موقع	موقع	NOUN	N_SING	Number=Sing	6	obl	_	_
+6	میزدم	زد#زن	VERB	V_PA	Number=Sing|Person=1|Tense=Past	8	advcl	_	_
+7	نویز	نویز	NOUN	N_SING	Number=Sing|Foreign=Yes	8	obj	_	_
+8	میده	داد#ده	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 398
+# text = به خاطر اینکه مشکلو حلش کردم
+1	به	به	ADP	P	_	2	case	_	_
+2	خاطر	خاطر	NOUN	N_SING	Number=Sing	8	obl	_	_
+3-4	اینکه	_	_	_	_	_	_	_	_
+3	این	این	PRON	PRO	Number=Sing|PronType=Dem	2	nmod	_	_
+4	که	که	SCONJ	CON	_	8	mark	_	_
+5-6	مشکلو	_	_	_	_	_	_	_	_
+5	مشکل	مشکل	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+6	و	را	PART	PART	_	5	case	_	_
+7-8	حلش	_	_	_	_	_	_	_	_
+7	حل	حل	NOUN	N_SING	Number=Sing	8	compound:lvc	_	_
+8	ش	آن	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	کردم	کرد#کن	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = 404
+# text = منم گفتم اوکی رفتم بیرون
+1-2	منم	_	_	_	_	_	_	_	_
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	م	هم	PART	PART	_	1	advmod:emph	_	_
+3	گفتم	گفت#گو	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	اوکی	اوکی	INTJ	INTJ	Foreign=Yes	5	discourse	_	_
+5	رفتم	رفت#رو	VERB	V_PA	Number=Sing|Person=1|Tense=Past	3	ccomp	_	_
+6	بیرون	بیرون	ADV	ADV_LOC	_	5	advmod	_	_
+
+# sent_id = 408
+# text = منم واقعا نمیدونستم الاغه مرده
+1-2	منم	_	_	_	_	_	_	_	_
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	م	هم	PART	PART	_	1	advmod:emph	_	_
+3	واقعا	واقعاً	ADV	ADV	_	4	advmod	_	_
+4	نمیدونستم	دانست#دان	VERB	V_PA	Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+5	الاغه	الاغ	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+6	مرده	مرد#میر	VERB	V_PP	VerbForm=Part	4	ccomp	_	_
+
+# sent_id = 409
+# text = گاو و الاغو مثلا بره و اینا جلوته
+1	گاو	گاو	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3-4	الاغو	_	_	_	_	_	_	_	_
+3	الاغ	الاغ	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	و	و	CCONJ	CON	_	6	cc	_	_
+5	مثلا	مثلاً	ADV	ADV	_	8	advmod	_	_
+6	بره	بره	NOUN	N_SING	Number=Sing	1	conj	_	_
+7	و	و	CCONJ	CON	_	8	cc	_	_
+8	اینا	اینها	PRON	PRO	Number=Plur|PronType=Dem	1	conj	_	_
+9-10	جلوته	_	_	_	_	_	_	_	_
+9	جلو	جلو	NOUN	N_SING	Number=Sing	0	root	_	_
+10	ته	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	9	cop	_	_
+
+# sent_id = 413
+# text = خب دیگه گرمایی حس نمیکنم
+1	خب	خوب	INTJ	INT	_	5	discourse	_	_
+2	دیگه	دیگر	ADV	ADV	_	5	advmod	_	_
+3	گرمایی	گرما	NOUN	N_SING	Number=Sing	5	obj	_	_
+4	حس	حس	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	نمیکنم	کرد#کن	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = 427
+# text = این ور اونورشو تو سوزن میزنید که باز باشه
+1	این	این	DET	DET	PronType=Dem	2	det	_	_
+2	ور	ور	NOUN	N_SING	Number=Sing	8	obj	_	_
+3-5	اونورشو	_	_	_	_	_	_	_	_
+3	اونور	اونور	NOUN	N_SING	Number=Sing	2	conj	_	_
+4	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+5	و	را	PART	PART	_	2	case	_	_
+6	تو	در	ADP	P	_	7	case	_	_
+7	سوزن	سوزن	NOUN	N_SING	Number=Sing	8	obl	_	_
+8	میزنید	زد#زن	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	0	root	_	_
+9	که	که	SCONJ	CON	_	10	mark	_	_
+10	باز	باز	ADJ	ADJ	Degree=Pos	8	advcl	_	_
+11	باشه	بود#باش	AUX	V_AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+
+# sent_id = 428
+# text = بعد حالا یه سری تستا و آزمایشای مختلفی هم وجود داره دیگه
+1	بعد	بعد	ADV	ADV_TIME	_	11	advmod	_	_
+2	حالا	حالا	ADV	ADV	_	11	discourse	_	_
+3	یه	یک	DET	DET	_	4	det	_	_
+4	سری	سری	NOUN	N_SING	Number=Sing	11	nsubj	_	_
+5	تستا	تست	NOUN	N_PL	Number=Plur|Foreign=Yes	4	nmod	_	_
+6	و	و	CCONJ	CON	_	7	cc	_	_
+7	آزمایشای	آزمایش	NOUN	N_PL	Number=Plur	5	conj	_	_
+8	مختلفی	مختلف	ADJ	ADJ	Degree=Pos	7	amod	_	_
+9	هم	هم	PART	PART	_	4	advmod:emph	_	_
+10	وجود	وجود	NOUN	N_SING	Number=Sing	11	compound:lvc	_	_
+11	داره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+12	دیگه	دیگر	ADV	ADV	_	11	advmod	_	_
+
+# sent_id = 435
+# text = همه در پایان کلاس این مدلی بودن که ما این کارو نمی کنیم
+1	همه	همه	PRON	PRO	PronType=Tot	6	nsubj	_	_
+2	در	در	ADP	P	_	3	case	_	_
+3	پایان	پایان	NOUN	N_SING	Number=Sing	6	obl	_	_
+4	کلاس	کلاس	NOUN	N_SING	Number=Sing	3	nmod	_	_
+5	این	این	DET	DET	PronType=Dem	6	det	_	_
+6	مدلی	مدل	NOUN	N_SING	Number=Sing	0	root	_	_
+7	بودن	بود#باش	AUX	V_AUX	Number=Plur|Person=3|Tense=Past	6	cop	_	_
+8	که	که	SCONJ	CON	_	13	mark	_	_
+9	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+10	این	این	DET	DET	PronType=Dem	11	det	_	_
+11-12	کارو	_	_	_	_	_	_	_	_
+11	کار	کار	NOUN	N_SING	Number=Sing	13	obj	_	_
+12	و	را	PART	PART	_	11	case	_	_
+13	نمی‌کنیم	کرد#کن	VERB	V_PRS	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	6	ccomp	_	_
+
+# sent_id = 452
+# text = من دوس داشتم فقط از اون درد رها بشه
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	دوس	دوست	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	داشتم	داشت#دار	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	فقط	فقط	ADV	ADV	_	8	advmod	_	_
+5	از	از	ADP	P	_	7	case	_	_
+6	اون	آن	DET	DET	PronType=Dem	7	det	_	_
+7	درد	درد	NOUN	N_SING	Number=Sing	8	obl	_	_
+8	رها	رها	ADJ	ADJ	Degree=Pos	9	compound:lvc	_	_
+9	بشه	شد#شو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	_
+
+# sent_id = 486
+# text = مثلا همشون به یک سرور کانکت میشن
+1	مثلا	مثلاً	ADV	ADV	_	8	advmod	_	_
+2-3	همشون	_	_	_	_	_	_	_	_
+2	همه	همه	DET	DET	PronType=Tot	3	det	_	_
+3	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+4	به	به	ADP	P	_	6	case	_	_
+5	یک	یک	NUM	NUM	NumType=Card	6	nummod	_	_
+6	سرور	سرور	NOUN	N_SING	Number=Sing	8	obl:arg	_	_
+7	کانکت	کانکت	ADJ	ADJ	Degree=Pos|Foreign=Yes	8	compound:lvc	_	_
+8	میشن	شد#شو	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 497
+# text = دووم اوردن مخصوصا به عنوان یک کانتنت کرییتور تنها توی این موجا خیلی سخته
+1	دووم	دوام	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	اوردن	آوردن	NOUN	N_SING	Number=Sing	15	nsubj	_	_
+3	مخصوصا	مخصوصاً	ADV	ADV	_	15	advmod	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	عنوان	عنوان	NOUN	N_SING	Number=Sing	2	nmod	_	_
+6	یک	یک	DET	DET	_	8	det	_	_
+7	کانتنت	کانتنت	NOUN	N_SING	Number=Sing|Foreign=Yes	8	compound	_	_
+8	کرییتور	کرییتور	NOUN	N_SING	Number=Sing|Foreign=Yes	5	nmod	_	_
+9	تنها	تنها	ADJ	ADJ	Degree=Pos	8	amod	_	_
+10	توی	در	ADP	P	_	12	case	_	_
+11	این	این	DET	DET	PronType=Dem	12	det	_	_
+12	موجا	موج	NOUN	N_PL	Number=Plur	2	obl	_	_
+13	خیلی	خیلی	ADV	ADV	_	15	advmod	_	_
+14-15	سخته	_	_	_	_	_	_	_	_
+14	سخت	سخت	ADJ	ADJ	Degree=Pos	0	root	_	_
+15	ه	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	14	cop	_	_
+
+# sent_id = 498
+# text = یه ویدئو دیدم خیلی باحال بود
+1	یه	یک	DET	DET	_	2	det	_	_
+2	ویدئو	ویدئو	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	دیدم	دید#بین	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	خیلی	خیلی	ADV	ADV	_	5	advmod	_	_
+5	باحال	باحال	ADJ	ADJ	Degree=Pos	3	ccomp	_	_
+6	بود	بود#باش	AUX	V_AUX	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+
+# sent_id = 538
+# text = فکر کنم توی این زیریاس
+1	فکر	فکر	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	کنم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+3	توی	در	ADP	P	_	5	case	_	_
+4	این	این	DET	DET	PronType=Dem	5	det	_	_
+5-6	زیریاس	_	_	_	_	_	_	_	_
+5	زیریا	زیری	NOUN	N_PL	Number=Plur	2	ccomp	_	_
+6	س	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+
+# sent_id = 553
+# text = اپیسود بعدیشم دوباره راجع به مرگ صحبت نکنیم
+1	اپیسود	اپیسود	NOUN	N_SING	Number=Sing|Foreign=Yes	8	obl:tmod	_	_
+2-4	بعدیشم	_	_	_	_	_	_	_	_
+2	بعدی	بعدی	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+4	م	هم	PART	PART	_	1	advmod:emph	_	_
+5	دوباره	دوباره	ADV	ADV	_	8	advmod	_	_
+6	راجع	راجع	ADP	P	_	8	obl:arg	_	_
+7	به	به	ADP	P	_	6	fixed	_	_
+8	مرگ	مرگ	NOUN	N_SING	Number=Sing	9	obl:arg	_	_
+9	صحبت	صحبت	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
+10	نکنیم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = 560
+# text = میشه دو سه تا رو ببینیم و بعد برگردیم امتیاز بدیم یا امتیازه رو؟
+1	میشه	شد#شو	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+2	دو	دو	NUM	NUM	NumType=Card	4	nummod	_	_
+3	سه	سه	NUM	NUM	NumType=Card	2	conj	_	_
+4	تا	تا	NUMCL	NUMCL	_	2	clf	_	_
+5	رو	را	PART	PART	_	4	case	_	_
+6	ببینیم	دید#بین	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	1	csubj	_	_
+7	و	و	CCONJ	CON	_	9	cc	_	_
+8	بعد	بعد	ADV	ADV_TIME	_	9	advmod	_	_
+9	برگردیم	گشت#گرد	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	6	conj	_	_
+10	امتیاز	امتیاز	NOUN	N_SING	Number=Sing	11	compound:lvc	_	_
+11	بدیم	داد#ده	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	9	ccomp	_	_
+12	یا	یا	CCONJ	CON	_	14	cc	_	_
+13-14	امتیازه	_	_	_	_	_	_	_	_
+13	امتیاز	امتیاز	NOUN	N_SING	Number=Sing	11	conj	_	_
+14	ه	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	13	cop	_	_
+15	رو	را	PART	PART	_	13	case	_	_
+16	؟	؟	PUNCT	DELM	_	1	punct	_	_
+
+# sent_id = 586
+# text = بعد یارو میگه مزاحمم نشو
+1	بعد	بعد	ADV	ADV_TIME	_	3	advmod	_	_
+2	یارو	یارو	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+3	میگه	گفت#گو	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4-5	مزاحمم	_	_	_	_	_	_	_	_
+4	مزاحم	مزاحم	NOUN	N_SING	Number=Sing	6	xcomp	_	_
+5	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	_
+6	نشو	شد#شو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	3	ccomp	_	_
+
+sent_id = pool_1052
+# sent_id = 593
+# text = چون ابروهای پری هم داره
+1	چون	چون	SCONJ	CON	_	5	mark	_	_
+2	ابروهای	ابرو	NOUN	N_PL	Number=Plur	5	obj	_	_
+3	پری	پر	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	هم	هم	PART	PART	_	2	advmod:emph	_	_
+5	داره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 607
+# text = من به ایشون هشت و نیم میدم
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	به	به	ADP	P	_	3	case	_	_
+3	ایشون	ایشان	PRON	PRO	Number=Sing|Person=3|PronType=Prs	7	obl:arg	_	_
+4	هشت	هشت	NUM	NUM	NumType=Card	7	obj	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	نیم	نیم	NUM	NUM	NumType=Card	4	conj	_	_
+7	میدم	داد#ده	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 611
+# text = اگه جرم گیری خواستید انجام بدید من براتون انجام میدم
+1	اگه	اگر	SCONJ	CON	_	4	mark	_	_
+2	جرم	جرم	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+3	گیری	_	X	_	_	2	goeswith	_	_
+4	خواستید	خواست#خواه	VERB	V_PA	Number=Plur|Person=2|Tense=Past	6	advcl	_	_
+5	انجام	انجام	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	بدید	داد#ده	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	11	advcl	_	_
+7	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8-9	براتون	_	_	_	_	_	_	_	_
+8	برا	برای	ADP	P	_	9	case	_	_
+9	تون	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	11	obl	_	_
+10	انجام	انجام	NOUN	N_SING	Number=Sing	11	compound:lvc	_	_
+11	میدم	داد#ده	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 616
+# text = واقعا توی کامنتا برام حتما بنویسید
+1	واقعا	واقعاً	ADV	ADV	_	8	advmod	_	_
+2	توی	در	ADP	P	_	3	case	_	_
+3-4	کامنتا	_	_	_	_	_	_	_	_
+3	کامنت	کامنت	NOUN	N_PL	Number=Plur|Foreign=Yes	8	obl	_	_
+4	ا	ها	PART	PART	_	3	goeswith	_	_
+5-6	برام	_	_	_	_	_	_	_	_
+5	برا	برای	ADP	P	_	6	case	_	_
+6	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+7	حتما	حتماً	ADV	ADV	_	8	advmod	_	_
+8	بنویسید	نوشت#نویس	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 626
+# text = فلان کارو، به عنوان مثال، کی احتمال داره بکنه یا فلان جرمو مرتکبش بشه؟
+1	فلان	فلان	DET	DET	_	2	det	_	_
+2-3	کارو	_	_	_	_	_	_	_	_
+2	کار	کار	NOUN	N_SING	Number=Sing	12	obj	_	_
+3	و	را	PART	PART	_	2	case	_	_
+4	،	،	PUNCT	DELM	_	6	punct	_	_
+5	به	به	ADP	P	_	6	case	_	_
+6	عنوان	عنوان	NOUN	N_SING	Number=Sing	11	obl	_	_
+7	مثال	مثال	NOUN	N_SING	Number=Sing	6	nmod	_	_
+8	،	،	PUNCT	DELM	_	11	punct	_	_
+9	کی	کی	PRON	PRO	PronType=Int	12	nsubj	_	_
+10	احتمال	احتمال	NOUN	N_SING	Number=Sing	11	compound:lvc	_	_
+11	داره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+12	بکنه	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	11	ccomp	_	_
+13	یا	یا	CCONJ	CON	_	20	cc	_	_
+14	فلان	فلان	DET	DET	_	15	det	_	_
+15-16	جرمو	_	_	_	_	_	_	_	_
+15	جرم	جرم	NOUN	N_SING	Number=Sing	20	dislocated	_	_
+16	و	را	PART	PART	_	15	case	_	_
+17-18	مرتکبش	_	_	_	_	_	_	_	_
+17	مرتکب	مرتکب	ADJ	ADJ	Degree=Pos	20	compound:lvc	_	_
+18	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+19	بشه	شد#شو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	12	conj	_	_
+20	؟	؟	PUNCT	DELM	_	11	punct	_	_
+
+# sent_id = 627
+# text = ما به هر حال به عنوان یک زوج ویدئوهامونو تازه شروع کردیم
+1	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+2	به	به	ADP	P	_	4	case	_	_
+3	هر	هر	DET	DET	_	4	det	_	_
+4	حال	حال	NOUN	N_SING	Number=Sing	13	obl	_	_
+5	به	به	ADP	P	_	6	case	_	_
+6	عنوان	عنوان	NOUN	N_SING	Number=Sing	13	obl	_	_
+7	یک	یک	DET	DET	_	8	det	_	_
+8	زوج	زوج	NOUN	N_SING	Number=Sing	6	nmod	_	_
+9-11	ویدئوهامونو	_	_	_	_	_	_	_	_
+9	ویدئوها	ویدئو	NOUN	N_PL	Number=Plur|Foreign=Yes	13	obj	_	_
+10	مون	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	9	nmod:poss	_	_
+11	و	را	PART	PART	_	9	case	_	_
+12	تازه	تازه	ADV	ADV	_	13	advmod	_	_
+13	شروع	شروع	NOUN	N_SING	Number=Sing	14	compound:lvc	_	_
+14	کردیم	کرد#کن	VERB	V_PA	Number=Plur|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = 656
+# text = خیلی فراموشی در مورد اسم دارم
+1	خیلی	خیلی	ADV	ADV	_	2	advmod	_	_
+2	فراموشی	فراموشی	NOUN	N_SING	Number=Sing	6	obj	_	_
+3	در	در	ADP	P	_	4	case	_	_
+4	مورد	مورد	NOUN	N_SING	Number=Sing	2	nmod	_	_
+5	اسم	اسم	NOUN	N_SING	Number=Sing	4	nmod	_	_
+6	دارم	داشت#دار	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 669
+# text = آقا شما تو کامنتا بنویسید
+1	آقا	آقا	INTJ	INT	_	6	discourse	_	_
+2	شما	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
+3	تو	در	ADP	P	_	4	case	_	_
+4-5	کامنتا	_	_	_	_	_	_	_	_
+4	کامنت	کامنت	NOUN	N_PL	Number=Plur|Foreign=Yes	6	obl	_	_
+5	ا	ها	PART	PART	_	4	goeswith	_	_
+6	بنویسید	نوشت#نویس	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 682
+# text = به نظر من تو بیشتر عمر میکنی
+1	به	به	ADP	P	_	2	case	_	_
+2	نظر	نظر	NOUN	N_SING	Number=Sing	7	obl	_	_
+3	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+4	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+5	بیشتر	بیشتر	ADV	ADV	Degree=Cmp	7	advmod	_	_
+6	عمر	عمر	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	میکنی	کرد#کن	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 689
+# text = مگه دزد و قاتل گیر اووردی
+1	مگه	مگر	PART	PART	PronType=Int	5	advmod	_	_
+2	دزد	دزد	NOUN	N_SING	Number=Sing	5	obj	_	_
+3	و	و	CCONJ	CON	_	4	cc	_	_
+4	قاتل	قاتل	NOUN	N_SING	Number=Sing	2	conj	_	_
+5	گیر	گیر	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	اووردی	آورد#آور	VERB	V_PA	Number=Sing|Person=2|Tense=Past	0	root	_	_
+
+# sent_id = 701
+# text = آره خوب داری فیلم بازی میکنی
+1	آره	آره	INTJ	INT	_	6	discourse	_	_
+2	خوب	خوب	ADV	ADV	_	6	advmod	_	_
+3	داری	داشت#دار	AUX	V_PRS	Number=Sing|Person=2|Tense=Pres	6	aux	_	_
+4	فیلم	فیلم	NOUN	N_SING	Number=Sing	6	obj	_	_
+5	بازی	بازی	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	میکنی	کرد#کن	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 722
+# text = کلا تلگراممو دیلیت اکانت کردم
+1	کلا	کلاً	ADV	ADV	_	6	advmod	_	_
+2-4	تلگراممو	_	_	_	_	_	_	_	_
+2	تلگرام	تلگرام	PROPN	PROPN	Number=Sing|Foreign=Yes	6	obj	_	_
+3	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+4	و	را	PART	PART	_	2	case	_	_
+5	دیلیت‌اکانت	دیلیت‌اکانت	NOUN	N_SING	Number=Sing|Foreign=Yes	6	compound:lvc	_	_
+6	کردم	کرد#کن	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = 730
+# text = خب من یه چیز توضیح بدم
+1	خب	خوب	INTJ	INT	_	6	discourse	_	_
+2	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	یه	یک	DET	DET	_	4	det	_	_
+4	چیز	چیز	NOUN	N_SING	Number=Sing	6	obj	_	_
+5	توضیح	توضیح	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	بدم	داد#ده	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 737
+# text = ما قبول داریم که این آقا زن ستیزی کرده
+1	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	قبول	قبول	ADJ	ADJ	Degree=Pos	3	compound:lvc	_	_
+3	داریم	داشت#دار	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+4	که	که	SCONJ	CON	_	9	mark	_	_
+5	این	این	DET	DET	PronType=Dem	6	det	_	_
+6	آقا	آقا	NOUN	N_SING	Number=Sing	9	nsubj	_	_
+7	زن	زن	NOUN	N_SING	Number=Sing	8	compound	_	_
+8	ستیزی	ستیزی	NOUN	N_SING	Number=Sing	9	compound:lvc	_	_
+9	کرده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	3	ccomp	_	_
+
+# sent_id = 741
+# text = همتون بدین همتون مشکل دارین
+1-2	همتون	_	_	_	_	_	_	_	_
+1	همه	همه	PRON	PRO	PronType=Tot	3	nsubj	_	_
+2	تون	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	1	nmod:poss	_	_
+3-4	بدین	_	_	_	_	_	_	_	_
+3	بد	بد	ADJ	ADJ	Degree=Pos	0	root	_	_
+4	ین	است	AUX	V_AUX	Number=Plur|Person=2|Tense=Pres	3	cop	_	_
+5-6	همتون	_	_	_	_	_	_	_	_
+5	همه	همه	PRON	PRO	PronType=Tot	8	nsubj	_	_
+6	تون	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	5	nmod:poss	_	_
+7	مشکل	مشکل	NOUN	N_SING	Number=Sing	8	obj	_	_
+8	دارین	داشت#دار	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	3	parataxis	_	_
+
+# sent_id = 745
+# text = نه این مقصر نیست این فلان نیست
+1	نه	نه	INTJ	INT	_	3	discourse	_	_
+2	این	این	PRON	PRO	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	مقصر	مقصر	NOUN	N_SING	Number=Sing	0	root	_	_
+4	نیست	هست	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	3	cop	_	_
+5	این	این	PRON	PRO	Number=Sing|PronType=Dem	6	nsubj	_	_
+6	فلان	فلان	NOUN	N_SING	Number=Sing	3	parataxis	_	_
+7	نیست	هست	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	6	cop	_	_
+
+# sent_id = 750
+# text = شما همتون میدونین دارین میبینین
+1	شما	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+2-3	همتون	_	_	_	_	_	_	_	_
+2	همه	همه	PRON	PRO	PronType=Tot	1	appos	_	_
+3	تون	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	2	nmod:poss	_	_
+4	میدونین	دانست#دان	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	0	root	_	_
+5	دارین	داشت#دار	AUX	V_PRS	Number=Plur|Person=2|Tense=Pres	6	aux	_	_
+6	میبینین	دید#بین	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	4	ccomp	_	_
+
+# sent_id = 752
+# text = نکته خوبی رو تو بهش اشاره کردی.
+1	نکته	نکته	NOUN	N_SING	Number=Sing	8	dislocated	_	_
+2	خوبی	خوب	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	رو	را	PART	PART	_	1	case	_	_
+4	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+5-6	بهش	_	_	_	_	_	_	_	_
+5	به	به	ADP	P	_	6	case	_	_
+6	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	8	obl:arg	_	_
+7	اشاره	اشاره	NOUN	N_SING	Number=Sing	8	compound:lvc	_	_
+8	کردی	کرد#کن	VERB	V_PA	Number=Sing|Person=2|Tense=Past	0	root	_	_
+9	.	.	PUNCT	DELM	_	8	punct	_	_
+
+# sent_id = 759
+# text = خب با همین بچه هایی که قرارداد و اینا داره
+1	خب	خوب	INTJ	INT	_	4	discourse	_	_
+2	با	با	ADP	P	_	4	case	_	_
+3	همین	همین	DET	DET	PronType=Dem	4	det	_	_
+4	بچه	بچه	NOUN	N_SING	Number=Sing	0	root	_	_
+5	هایی	ها	X	_	_	4	goeswith	_	_
+6	که	که	SCONJ	CON	_	10	mark	_	_
+7	قرارداد	قرارداد	NOUN	N_SING	Number=Sing	10	obj	_	_
+8	و	و	CCONJ	CON	_	9	cc	_	_
+9	اینا	اینها	PRON	PRO	Number=Plur|PronType=Dem	7	conj	_	_
+10	داره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	4	acl:relcl	_	_
+
+# sent_id = 763
+# text = یه روز درمیون دو روز درمیون ماشین رنت می کردن
+1	یه	یک	DET	DET	_	2	det	_	_
+2	روز	روز	NOUN	N_SING	Number=Sing	10	obl:tmod	_	_
+3	درمیون	درمیون	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	دو	دو	NUM	NUM	NumType=Card	5	nummod	_	_
+5	روز	روز	NOUN	N_SING	Number=Sing	2	conj	_	_
+6	درمیون	درمیون	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	ماشین	ماشین	NOUN	N_SING	Number=Sing	10	obj	_	_
+8	رنت	رنت	NOUN	N_SING	Number=Sing|Foreign=Yes	10	compound:lvc	_	_
+9	می	می	AUX	V_AUX	_	10	aux	_	_
+10	کردن	کرد#کن	VERB	V_PA	Number=Plur|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 777
+# text = میتونمم برم کلشو تیره کنم
+1-3	میتونمم	_	_	_	_	_	_	_	_
+1	میتونم	توانست#توان	AUX	V_PRS	Number=Sing|Person=1|Tense=Pres	4	aux	_	_
+2	م	هم	PART	PART	_	1	advmod:emph	_	_
+3	برم	رفت#رو	AUX	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	7	aux	_	_
+4-6	کلشو	_	_	_	_	_	_	_	_
+4	کل	کل	NOUN	N_SING	Number=Sing	7	obj	_	_
+5	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
+6	و	را	PART	PART	_	4	case	_	_
+7	تیره	تیره	ADJ	ADJ	Degree=Pos	8	compound:lvc	_	_
+8	کنم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 793
+# text = من ترسم کامل رفت من قبلا خیلی از هواپیما میترسیدم
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	_
+2-3	ترسم	_	_	_	_	_	_	_	_
+2	ترس	ترس	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+4	کامل	کامل	ADV	ADV	_	5	advmod	_	_
+5	رفت	رفت#رو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	قبلا	قبلاً	ADV	ADV_TIME	_	11	advmod	_	_
+8	خیلی	خیلی	ADV	ADV	_	11	advmod	_	_
+9	از	از	ADP	P	_	10	case	_	_
+10	هواپیما	هواپیما	NOUN	N_SING	Number=Sing	11	obl:arg	_	_
+11	میترسیدم	ترسید#ترس	VERB	V_PA	Number=Sing|Person=1|Tense=Past	5	parataxis	_	_
+
+# sent_id = 814
+# text = خب ینی با صورت خیس بری تو تخت؟
+1	خب	خوب	INTJ	INT	_	6	discourse	_	_
+2	ینی	یعنی	INTJ	INT	Typo=Yes	6	discourse	_	_
+3	با	با	ADP	P	_	4	case	_	_
+4	صورت	صورت	NOUN	N_SING	Number=Sing	6	obl	_	_
+5	خیس	خیس	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	بری	رفت#رو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	0	root	_	_
+7	تو	در	ADP	P	_	8	case	_	_
+8	تخت	تخت	NOUN	N_SING	Number=Sing	6	obl	_	_
+9	؟	؟	PUNCT	DELM	_	6	punct	_	_
+
+# sent_id = 815
+# text = الان احساس آرامش بیشتری نداری؟
+1	الان	الان	ADV	ADV_TIME	_	5	advmod	_	_
+2	احساس	احساس	NOUN	N_SING	Number=Sing	5	obj	_	_
+3	آرامش	آرامش	NOUN	N_SING	Number=Sing	2	nmod	_	_
+4	بیشتری	بیشتر	ADJ	ADJ_CMPR	Degree=Cmp	2	amod	_	_
+5	نداری	داشت#دار	VERB	V_PRS	Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	_
+6	؟	؟	PUNCT	DELM	_	5	punct	_	_
+
+# sent_id = 830
+# text = خونه تر تمیز مرتبه خودم تمیزم
+1	خونه	خانه	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	تر	تر	X	_	_	3	goeswith	_	_
+3	تمیز	تمیز	ADJ	ADJ	Degree=Pos	0	root	_	_
+4-5	مرتبه	_	_	_	_	_	_	_	_
+4	مرتب	مرتب	ADJ	ADJ	Degree=Pos	3	conj	_	_
+5	ه	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+6-7	خودم	_	_	_	_	_	_	_	_
+6	خود	خود	PRON	PRO	PronType=Prs|Reflex=Yes	9	nsubj	_	_
+7	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
+8-9	تمیزم	_	_	_	_	_	_	_	_
+8	تمیز	تمیز	ADJ	ADJ	Degree=Pos	3	parataxis	_	_
+9	م	است	AUX	V_AUX	Number=Sing|Person=1|Tense=Pres	8	cop	_	_
+
+# sent_id = 840
+# text = ببین اینجا اگه دوبل وایسی من میرم میگیرم میام
+1	ببین	دید#بین	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	8	discourse	_	_
+2	اینجا	اینجا	ADV	ADV_LOC	_	5	advmod	_	_
+3	اگه	اگر	SCONJ	CON	_	5	mark	_	_
+4	دوبل	دوبل	ADJ	ADJ	Degree=Pos|Foreign=Yes	5	compound:lvc	_	_
+5	وایسی	ایستاد#ایست	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	8	advcl	_	_
+6	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	میرم	رفت#رو	AUX	V_PRS	Number=Sing|Person=1|Tense=Pres	8	aux	_	_
+8	میگیرم	گرفت#گیر	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	0	root	_	_
+9	میام	آمد#آی	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	8	conj	_	_
+
+# sent_id = 851
+# text = اینو همین الان در جریانش قرار گرفتم خدایی
+1-2	اینو	_	_	_	_	_	_	_	_
+1	این	این	PRON	PRO	Number=Sing|PronType=Dem	9	dislocated	_	_
+2	و	را	PART	PART	_	1	case	_	_
+3	همین	همین	DET	DET	PronType=Dem	4	det	_	_
+4	الان	الان	NOUN	N_SING	Number=Sing	9	obl:tmod	_	_
+5	در	در	ADP	P	_	6	case	_	_
+6-7	جریانش	_	_	_	_	_	_	_	_
+6	جریان	جریان	NOUN	N_SING	Number=Sing	9	obl	_	_
+7	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
+8	قرار	قرار	NOUN	N_SING	Number=Sing	9	compound:lvc	_	_
+9	گرفتم	گرفت#گیر	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+10	خدایی	خدایی	INTJ	INT	_	9	discourse	_	_
+
+# sent_id = 883
+# text = ینی خیلی چیزا گفتا که یادم نیست
+1	ینی	یعنی	INTJ	INT	Typo=Yes	4	discourse	_	_
+2	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+3	چیزا	چیز	NOUN	N_PL	Number=Plur	4	obj	_	_
+4-5	گفتا	_	_	_	_	_	_	_	_
+4	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	ا	ا	INTJ	INT	_	4	discourse	_	_
+6	که	که	SCONJ	CON	_	7	mark	_	_
+7-8	یادم	_	_	_	_	_	_	_	_
+7	یاد	یاد	NOUN	N_SING	Number=Sing	4	ccomp	_	_
+8	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
+9	نیست	است	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	7	cop	_	_
+
+# sent_id = 896
+# text = ینی لزوما صد در صدی بابت این قضیه وجود نداره
+1	ینی	یعنی	INTJ	INT	Typo=Yes	10	discourse	_	_
+2	لزوما	لزوماً	ADV	ADV	_	10	advmod	_	_
+3	صد	صد	NUM	NUM	NumType=Card	5	nummod	_	_
+4	در	در	ADP	P	_	5	case	_	_
+5	صدی	صدی	NOUN	N_SING	Number=Sing	10	nsubj	_	_
+6	بابت	بابت	ADP	P	_	8	case	_	_
+7	این	این	DET	DET	PronType=Dem	8	det	_	_
+8	قضیه	قضیه	NOUN	N_SING	Number=Sing	10	obl	_	_
+9	وجود	وجود	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
+10	نداره	داشت#دار	VERB	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = 901
+# text = ینی از گذشته شناخت داشتی؟
+1	ینی	یعنی	INTJ	INT	Typo=Yes	5	discourse	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	گذشته	گذشته	NOUN	N_SING	Number=Sing	5	obl	_	_
+4	شناخت	شناخت	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	داشتی	داشت#دار	VERB	V_PA	Number=Sing|Person=2|Tense=Past	0	root	_	_
+6	؟	؟	PUNCT	DELM	_	5	punct	_	_
+
+# sent_id = 919
+# text = مثلا یه دخترو یهو پیدا میکردیش
+1	مثلا	مثلاً	ADV	ADV	_	7	advmod	_	_
+2	یه	یک	DET	DET	_	3	det	_	_
+3-4	دخترو	_	_	_	_	_	_	_	_
+3	دختر	دختر	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+4	و	را	PART	PART	_	3	case	_	_
+5	یهو	یکهو	ADV	ADV	_	7	advmod	_	_
+6	پیدا	پیدا	ADJ	ADJ	Degree=Pos	7	compound:lvc	_	_
+7-8	میکردیش	_	_	_	_	_	_	_	_
+7	میکردی	کرد#کن	VERB	V_PA	Number=Sing|Person=2|Tense=Past	0	root	_	_
+8	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+
+# sent_id = 928
+# text = حالا برنامت برا استریم یوتیوب چه جوریه؟
+1	حالا	حالا	ADV	ADV	_	8	discourse	_	_
+2-3	برنامت	_	_	_	_	_	_	_	_
+2	برنامه	برنامه	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+3	ت	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+4	برا	برای	ADP	P	_	5	case	_	_
+5	استریم	استریم	NOUN	N_SING	Number=Sing|Foreign=Yes	2	nmod	_	_
+6	یوتیوب	یوتیوب	PROPN	PROPN	Number=Sing|Foreign=Yes	5	nmod	_	_
+7	چه	چه	DET	DET	PronType=Int	8	det	_	_
+8-9	جوریه	_	_	_	_	_	_	_	_
+8	جوری	جور	NOUN	N_SING	Number=Sing	0	root	_	_
+9	ه	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	8	cop	_	_
+10	؟	؟	PUNCT	DELM	_	8	punct	_	_
+
+# sent_id = 933
+# text = دیدم نه تو این هفته هیچ خبری از بارون نیست
+1	دیدم	دید#بین	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+2	نه	نه	INTJ	INT	_	9	discourse	_	_
+3	تو	در	ADP	P	_	5	case	_	_
+4	این	این	DET	DET	PronType=Dem	5	det	_	_
+5	هفته	هفته	NOUN	N_SING	Number=Sing	9	obl	_	_
+6	هیچ	هیچ	DET	DET	PronType=Neg	7	det	_	_
+7	خبری	خبر	NOUN	N_SING	Number=Sing	9	nsubj	_	_
+8	از	از	ADP	P	_	9	case	_	_
+9	بارون	باران	NOUN	N_SING	Number=Sing	1	ccomp	_	_
+10	نیست	است	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	cop	_	_
+
+# sent_id = 936
+# text = بحث آها دانشگاه من و این چیزا و رشته
+1	بحث	بحث	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	آها	آها	INTJ	INT	_	3	discourse	_	_
+3	دانشگاه	دانشگاه	NOUN	N_SING	Number=Sing	0	root	_	_
+4	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
+5	و	و	CCONJ	CON	_	7	cc	_	_
+6	این	این	DET	DET	PronType=Dem	7	det	_	_
+7	چیزا	چیز	NOUN	N_PL	Number=Plur	3	conj	_	_
+8	و	و	CCONJ	CON	_	9	cc	_	_
+9	رشته	رشته	NOUN	N_SING	Number=Sing	3	conj	_	_
+
+# sent_id = 947
+# text = اوضاع اینترنتش درست حسابی نیست
+1	اوضاع	اوضاع	NOUN	N_PL	Number=Plur	5	nsubj	_	_
+2-3	اینترنتش	_	_	_	_	_	_	_	_
+2	اینترنت	اینترنت	NOUN	N_SING	Number=Sing|Foreign=Yes	1	nmod	_	_
+3	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
+4	درست	درست	ADV	ADV	_	5	advmod	_	_
+5	حسابی	حسابی	ADJ	ADJ	Degree=Pos	0	root	_	_
+6	نیست	است	AUX	V_AUX	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	cop	_	_
+
+# sent_id = 956
+# text = ینی چی اعتماد به نفس ندارم
+1	ینی	یعنی	INTJ	INT	Typo=Yes	6	discourse	_	_
+2	چی	چه	PRON	PRO	PronType=Int	6	obj	_	_
+3	اعتماد	اعتماد	NOUN	N_SING	Number=Sing	6	obj	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	نفس	نفس	NOUN	N_SING	Number=Sing	3	nmod	_	_
+6	ندارم	داشت#دار	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = 958
+# text = ما معمولا بعد از کلاس میومدیم اینجا سیگار میکشیدیم
+1	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+2	معمولا	معمولاً	ADV	ADV	_	6	advmod	_	_
+3	بعد	بعد	ADP	P	_	5	case	_	_
+4	از	از	ADP	P	_	3	fixed	_	_
+5	کلاس	کلاس	NOUN	N_SING	Number=Sing	6	obl	_	_
+6	میومدیم	آمد#آی	VERB	V_PA	Number=Plur|Person=1|Tense=Past	0	root	_	_
+7	اینجا	اینجا	ADV	ADV_LOC	_	9	advmod	_	_
+8	سیگار	سیگار	NOUN	N_SING	Number=Sing	9	obj	_	_
+9	میکشیدیم	کشید#کش	VERB	V_PA	Number=Plur|Person=1|Tense=Past	6	conj	_	_
+
+# sent_id = 965
+# text = این داستان که مثلا همه رو باید راضی نگه داریشون.
+1	این	این	DET	DET	PronType=Dem	2	det	_	_
+2	داستان	داستان	NOUN	N_SING	Number=Sing	10	nsubj	_	_
+3	که	که	SCONJ	CON	_	10	mark	_	_
+4	مثلا	مثلاً	ADV	ADV	_	10	advmod	_	_
+5	همه	همه	PRON	PRO	PronType=Tot	10	dislocated	_	_
+6	رو	را	PART	PART	_	5	case	_	_
+7	باید	بایست#باید	AUX	V_AUX	_	10	aux	_	_
+8	راضی	راضی	ADJ	ADJ	Degree=Pos	10	xcomp	_	_
+9	نگه	نگه	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
+10-11	داریشون	_	_	_	_	_	_	_	_
+10	داری	داشت#دار	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	2	acl:relcl	_	_
+11	شون	آنها	PRON	PRO	Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	DELM	_	10	punct	_	_
+
+# sent_id = 997
+# text = برای چی اصن باید یه میله ای که بستسو چکش کنی
+1	برای	برای	ADP	P	_	2	case	_	_
+2	چی	چه	PRON	PRO	PronType=Int	13	obl	_	_
+3	اصن	اصلاً	ADV	ADV	_	13	advmod:emph	_	_
+4	باید	بایست#باید	AUX	V_AUX	_	13	aux	_	_
+5	یه	یک	DET	DET	_	6	det	_	_
+6	میله	میله	NOUN	N_SING	Number=Sing	13	dislocated	_	_
+7	ای	ای	PART	PART	_	6	goeswith	_	_
+8	که	که	SCONJ	CON	_	9	mark	_	_
+9-11	بستسو	_	_	_	_	_	_	_	_
+9	بسته	بسته	ADJ	ADJ	Degree=Pos	6	acl:relcl	_	_
+10	س	است	AUX	V_AUX	Number=Sing|Person=3|Tense=Pres	9	cop	_	_
+11	و	را	PART	PART	_	6	case	_	_
+12-13	چکش	_	_	_	_	_	_	_	_
+12	چک	چک	NOUN	N_SING	Number=Sing|Foreign=Yes	13	compound:lvc	_	_
+13	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	کنی	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 999
+# text = بحثو دیدی چه جوری شروع کردیش و ادامه میخوای بدی
+1-2	بحثو	_	_	_	_	_	_	_	_
+1	بحث	بحث	NOUN	N_SING	Number=Sing	7	dislocated	_	_
+2	و	را	PART	PART	_	1	case	_	_
+3	دیدی	دید#بین	VERB	V_PA	Number=Sing|Person=2|Tense=Past	0	root	_	_
+4	چه	چه	DET	DET	PronType=Int	5	det	_	_
+5	جوری	جور	NOUN	N_SING	Number=Sing	7	obl	_	_
+6	شروع	شروع	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7-8	کردیش	_	_	_	_	_	_	_	_
+7	کردی	کرد#کن	VERB	V_PA	Number=Sing|Person=2|Tense=Past	3	ccomp	_	_
+8	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	و	و	CCONJ	CON	_	12	cc	_	_
+10	ادامه	ادامه	NOUN	N_SING	Number=Sing	12	compound:lvc	_	_
+11	میخوای	خواست#خواه	AUX	V_PRS	Number=Sing|Person=2|Tense=Pres	12	aux	_	_
+12	بدی	داد#ده	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	7	conj	_	_
+
+# sent_id = 1002
+# text = ولی ما هم قدیم این کارو خیلی میکردیمش
+1	ولی	ولی	CCONJ	CON	_	9	cc	_	_
+2	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+3	هم	هم	PART	PART	_	2	advmod:emph	_	_
+4	قدیم	قدیم	ADV	ADV_TIME	_	9	advmod	_	_
+5	این	این	DET	DET	PronType=Dem	6	det	_	_
+6-7	کارو	_	_	_	_	_	_	_	_
+6	کار	کار	NOUN	N_SING	Number=Sing	9	dislocated	_	_
+7	و	را	PART	PART	_	6	case	_	_
+8	خیلی	خیلی	ADV	ADV	_	9	advmod	_	_
+9-10	میکردیمش	_	_	_	_	_	_	_	_
+9	میکردیم	کرد#کن	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+10	ش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	obj	_	_
