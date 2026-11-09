@@ -335,12 +335,12 @@
 2	این	این	DET	DET	PronType=Dem	3	det	_	_
 3	جوری	جور	NOUN	N_SING	Number=Sing	4	obl	_	_
 4	نیست	هست	VERB	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
-5	مثلا	مثلاً	ADV	ADV	_	11	advmod	_	_
-6	ستون	ستون	NOUN	N_SING	Number=Sing	11	nsubj	_	_
+5	مثلا	مثلاً	ADV	ADV	_	10	advmod	_	_
+6	ستون	ستون	NOUN	N_SING	Number=Sing	10	nsubj	_	_
 7-8	فقراتت	_	_	_	_	_	_	_	_
 7	فقرات	فقره	NOUN	N_PL	Number=Plur	6	nmod	_	_
 8	ت	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	7	nmod:poss	_	_
-9	جا	جا	NOUN	N_SING	Number=Sing	11	compound:lvc	_	_
+9	جا	جا	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
 10	بره	رفت#رو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
 
 # sent_id = 234
@@ -398,13 +398,13 @@
 
 # sent_id = 254
 # text = بچه ها اصلا گپ تایمای ما هیچوقت آموزنده نبوده
-1	بچه‌ها	بچه	NOUN	N_PL	Number=Plur	9	vocative	_	_
-2	اصلا	اصلاً	ADV	ADV	_	9	advmod	_	_
+1	بچه‌ها	بچه	NOUN	N_PL	Number=Plur	8	vocative	_	_
+2	اصلا	اصلاً	ADV	ADV	_	8	advmod	_	_
 3	گپ	گپ	NOUN	N_SING	Number=Sing|Foreign=Yes	4	compound	_	_
-4	تایمای	تایم	NOUN	N_PL	Number=Plur|Foreign=Yes	9	nsubj	_	_
+4	تایمای	تایم	NOUN	N_PL	Number=Plur|Foreign=Yes	8	nsubj	_	_
 5	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
-6	هیچوقت	هیچوقت	ADV	ADV_NEG	PronType=Neg	9	advmod	_	_
-7	آموزنده	آموزنده	ADJ	ADJ	Degree=Pos	9	xcomp	_	_
+6	هیچوقت	هیچوقت	ADV	ADV_NEG	PronType=Neg	8	advmod	_	_
+7	آموزنده	آموزنده	ADJ	ADJ	Degree=Pos	8	xcomp	_	_
 8	نبوده	بود#باش	VERB	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	0	root	_	_
 
 # sent_id = 288
@@ -417,7 +417,7 @@
 6	داشتم	داشت#دار	VERB	V_PA	Number=Sing|Person=1|Tense=Past	7	advcl	_	_
 7	برم	رفت#رو	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 8	با	با	ADP	P	_	9	case	_	_
-9	بچه‌ها	بچه	NOUN	N_PL	Number=Plur	11	obl	_	_
+9	بچه‌ها	بچه	NOUN	N_PL	Number=Plur	10	obl	_	_
 10	بگیرم	گرفت#گیر	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	7	ccomp	_	_
 
 # sent_id = 290
@@ -779,7 +779,6 @@
 5	م	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	_
 6	نشو	شد#شو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	3	ccomp	_	_
 
-sent_id = pool_1052
 # sent_id = 593
 # text = چون ابروهای پری هم داره
 1	چون	چون	SCONJ	CON	_	5	mark	_	_
